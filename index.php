@@ -23,7 +23,7 @@ background:#f7f9fc;
 header{
 width:100%;
 height:90px;
-background:white;
+background:#FEF8F8;
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -824,7 +824,7 @@ margin-top:20px;
 
 <div class="logo">
 
-<img src="images/logo.png">
+<img src="image/logo.jpeg" height=90% width=50%>
 
 <div>
 
@@ -836,21 +836,21 @@ margin-top:20px;
 
 </div>
 
-<nav>
+<nav style="text-decoration:none;">
 
 <ul>
 
-<li><a href="#">Home</a></li>
+<li><a href="index.php">Home</a></li>
 
-<li><a href="#">Career</a></li>
+<li><a href="career.php">Career</a></li>
 
-<li><a href="#">Company</a></li>
+<li><a href="company.php">Company</a></li>
 
-<li><a href="#">Resume Builder</a></li>
+<li><a href="resume-builder.php">Resume Builder</a></li>
 
-<li><a href="#">Interview Practice</a></li>
+<li><a href="interview.php">Interview Practice</a></li>
 
-<li><a href="#">Feedback</a></li>
+<li><a href="feedback.php">Feedback</a></li>
 
 </ul>
 
@@ -921,7 +921,7 @@ prepare for interviews and explore top companies with NEXT STEP.
 
 <div class="card">
 
-<img src="https://www.shutterstock.com/search/career-counselors">
+<img src="image/career guidence.webp">
 
 <h3>Career Guidance</h3>
 
@@ -931,7 +931,7 @@ prepare for interviews and explore top companies with NEXT STEP.
 
 <div class="card">
 
-<img src="top comapnies.webp">
+<img src="image/top comapnies.webp">
 
 <h3>Top Companies</h3>
 
@@ -941,7 +941,7 @@ prepare for interviews and explore top companies with NEXT STEP.
 
 <div class="card">
 
-<img src="C:\xampp\htdocs\gautami php\Next Step\image\resum bulider.jpg">
+<img src="image/resum bulider.jpg">
 
 <h3>Resume Builder</h3>
 
@@ -951,7 +951,7 @@ prepare for interviews and explore top companies with NEXT STEP.
 
 <div class="card">
 
-<img src="icons/interview.png">
+<img src="image/interview practice.png">
 
 <h3>Interview Practice</h3>
 
@@ -961,7 +961,7 @@ prepare for interviews and explore top companies with NEXT STEP.
 
 <div class="card">
 
-<img src="icons/roadmap.png">
+<img src="image/career to roadmap.jpg">
 
 <h3>Career Roadmap</h3>
 
@@ -971,7 +971,7 @@ prepare for interviews and explore top companies with NEXT STEP.
 
 <div class="card">
 
-<img src="icons/skills.png">
+<img src="image/skill development.webp">
 
 <h3>Skill Development</h3>
 
@@ -1070,7 +1070,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/software.png">
+<img src="image/software Development.jpg">
 
 <h3>Software Development</h3>
 
@@ -1082,7 +1082,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/ai.png">
+<img src="image/Artificial Intelligence.jpg">
 
 <h3>Artificial Intelligence</h3>
 
@@ -1094,7 +1094,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/cyber.png">
+<img src="image/Cyber Security.jpg">
 
 <h3>Cyber Security</h3>
 
@@ -1106,7 +1106,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/data.png">
+<img src="image/Data science.jpg">
 
 <h3>Data Science</h3>
 
@@ -1118,7 +1118,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/cloud.png">
+<img src="image/Cloud Computing.jpg">
 
 <h3>Cloud Computing</h3>
 
@@ -1130,7 +1130,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/mechanical.png">
+<img src="image/Mechanical Engineering.jpg">
 
 <h3>Mechanical Engineering</h3>
 
@@ -1142,7 +1142,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/civil.png">
+<img src="image/civil eng.jpg">
 
 <h3>Civil Engineering</h3>
 
@@ -1154,7 +1154,7 @@ Choose your dream career and explore detailed guidance.
 
 <div class="career-card">
 
-<img src="icons/government.png">
+<img src="image/Government Jobs.jpg">
 
 <h3>Government Jobs</h3>
 
@@ -1180,7 +1180,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="images/google.png">
+<img src="image/Google.jpg">
 
 <h3>Google</h3>
 
@@ -1194,7 +1194,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="images/microsoft.png">
+<img src="image/Microsoft.png">
 
 <h3>Microsoft</h3>
 
@@ -1208,7 +1208,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ64NWxsS5BvKPRrFIXT1ZqmjZD-gqmi3rMpvWtB07_gQ&s=10">
+<img src="image/Amazon.png">
 
 <h3>Amazon</h3>
 
@@ -1222,7 +1222,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="images/tcs.png">
+<img src="image/TCS.jpg">
 
 <h3>TCS</h3>
 
@@ -1236,7 +1236,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="Infosys.jpg">
+<img src="image/infosys.jpg">
 
 <h3>Infosys</h3>
 
@@ -1250,7 +1250,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="images/wipro.png">
+<img src="image/Wipro.jpg">
 
 <h3>Wipro</h3>
 
@@ -1264,7 +1264,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="images/capgemini.png">
+<img src="image/Capgemini.png">
 
 <h3>Capgemini</h3>
 
@@ -1278,7 +1278,7 @@ Explore top companies and prepare for your dream job.
 
 <div class="company-card">
 
-<img src="images/accenture.png">
+<img src="image/Accenture.png">
 
 <h3>Accenture</h3>
 
@@ -1306,7 +1306,7 @@ Read career guidance articles and improve your placement preparation.
 
 <div class="blog-card">
 
-<img src="images/blog1.jpg">
+<img src="image/blog1.jpg">
 
 <h3>How to Crack Your First Interview</h3>
 
@@ -1380,7 +1380,7 @@ Follow these simple steps to achieve your dream career.
 <div class="arrow">➜</div>
 
 <div class="step">
-<img src="icons/resume.png">
+<img src="images/resume builder.jpg">
 <h3>Step 3</h3>
 <h4>Build Resume</h4>
 <p>Create a professional ATS-friendly resume.</p>
@@ -1389,7 +1389,7 @@ Follow these simple steps to achieve your dream career.
 <div class="arrow">➜</div>
 
 <div class="step">
-<img src="icons/interview.png">
+<img src="images/interview practice.png">
 <h3>Step 4</h3>
 <h4>Interview Practice</h4>
 <p>Prepare HR and technical interview questions.</p>
@@ -1398,7 +1398,7 @@ Follow these simple steps to achieve your dream career.
 <div class="arrow">➜</div>
 
 <div class="step">
-<img src="icons/company.png">
+<img src="images/company.png">
 <h3>Step 5</h3>
 <h4>Get Placed</h4>
 <p>Apply to companies and start your career.</p>
@@ -1547,9 +1547,9 @@ Yes. All career guidance features are available free for students.
 
 <img src="images/student2.jpg">
 
-<h3>Rahul Patil</h3>
+<h3>Gautami Pharane</h3>
 
-<h4>Software Developer</h4>
+<h4>Computer Engineering Student</h4>
 
 <p>
 "The Resume Builder and Company Information sections are really useful."
@@ -1561,7 +1561,7 @@ Yes. All career guidance features are available free for students.
 
 <img src="images/student3.jpg">
 
-<h3>Sneha More</h3>
+<h3>Arju jamadhar</h3>
 
 <h4>Diploma Student</h4>
 
@@ -1654,7 +1654,7 @@ Your Journey to a Successful Career Starts Here.
 
 <a href="#">Career</a>
 
-<a href="#">Company</a>
+<a href="company.php">Company</a>
 
 <a href="#">Resume Builder</a>
 
