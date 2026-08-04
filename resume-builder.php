@@ -249,44 +249,9 @@ cursor:pointer;
 
 </style>
 
-</head>
 
-<div class="logo">
 
-<img src="image/logo.jpeg" height=90% width=50%>
 
-<div>
-
-<h2>NEXT STEP</h2>
-
-<p>Your Journey to a Successful Career</p>
-
-</div>
-
-</div>
-
-<nav style="text-decoration:none;">
-
-<ul>
-
-<li><a href="index.php">Home</a></li>
-
-<li><a href="career.php">Career</a></li>
-
-<li><a href="company.php">Company</a></li>
-
-<li><a href="resume-builder.php">Resume Builder</a></li>
-
-<li><a href="interview.php">Interview Practice</a></li>
-
-<li><a href="feedback.php">Feedback</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-</div>
 
 <div class="container">
 

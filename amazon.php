@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -23,6 +24,7 @@ body{
     color:#333;
 }
 
+
 /* Header */
 
 header{
@@ -40,7 +42,8 @@ header p{
     margin-top:10px;
 }
 
-/* Container */
+
+/* Main Container */
 
 .container{
     width:90%;
@@ -48,7 +51,8 @@ header p{
     margin:30px auto;
 }
 
-/* Company Header */
+
+/* Company Logo Section */
 
 .company-header{
     background:white;
@@ -61,7 +65,7 @@ header p{
 
 .company-header img{
     width:150px;
-    height:120px;
+    height:130px;
     object-fit:contain;
 }
 
@@ -70,6 +74,11 @@ header p{
     margin-top:15px;
     font-size:30px;
 }
+
+.company-header p{
+    margin-top:10px;
+}
+
 
 /* Information Cards */
 
@@ -92,7 +101,8 @@ header p{
     line-height:1.7;
 }
 
-/* Founder */
+
+/* Owner */
 
 .owner{
     display:flex;
@@ -103,9 +113,12 @@ header p{
 .owner img{
     width:120px;
     height:120px;
-    object-fit:cover;
+    object-fit:contain;
     border-radius:50%;
+    background:#eef6ff;
+    padding:10px;
 }
+
 
 /* Details */
 
@@ -126,12 +139,14 @@ header p{
     margin-bottom:8px;
 }
 
+
 /* Branches */
 
 .branch-list{
     line-height:2;
     padding-left:20px;
 }
+
 
 /* Salary Table */
 
@@ -156,10 +171,12 @@ table tr:nth-child(even){
     background:#eef6ff;
 }
 
-/* Interview */
+
+/* Interview Button */
 
 .interview{
     text-align:center;
+    margin:30px 0;
 }
 
 .interview a{
@@ -177,11 +194,12 @@ table tr:nth-child(even){
     background:#003b73;
 }
 
-/* Back */
+
+/* Back Button */
 
 .back{
     text-align:center;
-    margin:30px 0 40px;
+    margin-bottom:40px;
 }
 
 .back a{
@@ -189,6 +207,7 @@ table tr:nth-child(even){
     color:#003b73;
     font-weight:bold;
 }
+
 
 /* Mobile */
 
@@ -205,6 +224,8 @@ table tr:nth-child(even){
 
     table{
         font-size:13px;
+        display:block;
+        overflow-x:auto;
     }
 
 }
@@ -214,7 +235,6 @@ table tr:nth-child(even){
 </head>
 
 <body>
-
 
 <!-- Header -->
 
@@ -226,24 +246,25 @@ table tr:nth-child(even){
 
 </header>
 
-
 <div class="container">
-
 
 <!-- Company Logo -->
 
 <div class="company-header">
 
-<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/amazon-icon.png" alt="Amazon Logo">            <h3>Amazon</h3>
+<img
+src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/amazon-icon.png"
+alt="Amazon Logo"
+
+>
 
 <h2>Amazon</h2>
 
 <p>
-E-Commerce • Cloud Computing • Technology • Artificial Intelligence
+E-Commerce • Cloud Computing • Artificial Intelligence • Digital Services
 </p>
 
 </div>
-
 
 <!-- History -->
 
@@ -253,24 +274,25 @@ E-Commerce • Cloud Computing • Technology • Artificial Intelligence
 
 <p>
 
-Amazon was founded by Jeff Bezos in 1994.
+Amazon is an American multinational technology company
+founded by Jeff Bezos.
 
-The company started as an online bookstore and
-later expanded into a large global e-commerce platform.
+Amazon was founded in 1994 as an online bookstore and
+later expanded into one of the world's largest e-commerce
+and technology companies.
 
-Today Amazon provides online shopping, cloud computing
-through Amazon Web Services (AWS), digital streaming,
-artificial intelligence and many other technology services.
+Today Amazon provides many products and services including
+Amazon.com, Amazon Web Services (AWS), Prime Video,
+Alexa, Kindle and Artificial Intelligence technologies.
 
-Amazon is one of the world's largest technology and
-e-commerce companies.
+Amazon operates across many countries and serves millions
+of customers around the world.
 
 </p>
 
 </div>
 
-
-<!-- Founder -->
+<!-- Founder / Owner -->
 
 <div class="info-card">
 
@@ -278,18 +300,24 @@ e-commerce companies.
 
 <div class="owner">
 
-<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/amazon-icon.png" alt="Amazon Logo">            <h3>Amazon</h3>
+<img
+src="https://cdn.simpleicons.org/amazon"
+alt="Amazon Logo"
+
+>
 
 <div>
 
 <h3>Jeff Bezos</h3>
 
 <p>
-Founder of Amazon
+Founder and former CEO of Amazon.
 </p>
 
 <p>
-Jeff Bezos founded Amazon in 1994.
+Amazon was founded by Jeff Bezos in 1994.
+He played a major role in transforming Amazon
+into a global technology and e-commerce company.
 </p>
 
 </div>
@@ -297,7 +325,6 @@ Jeff Bezos founded Amazon in 1994.
 </div>
 
 </div>
-
 
 <!-- Company Details -->
 
@@ -307,7 +334,6 @@ Jeff Bezos founded Amazon in 1994.
 
 <div class="details">
 
-
 <div class="detail-box">
 
 <h3>📅 Established Date</h3>
@@ -315,7 +341,6 @@ Jeff Bezos founded Amazon in 1994.
 <p>July 5, 1994</p>
 
 </div>
-
 
 <div class="detail-box">
 
@@ -325,7 +350,6 @@ Jeff Bezos founded Amazon in 1994.
 
 </div>
 
-
 <div class="detail-box">
 
 <h3>🌍 Headquarters</h3>
@@ -334,22 +358,17 @@ Jeff Bezos founded Amazon in 1994.
 
 </div>
 
-
 <div class="detail-box">
 
-<h3>🛒 Main Services</h3>
+<h3>🌐 Website Users</h3>
 
-<p>
-Amazon Shopping, AWS, Prime Video, Alexa and Kindle
-</p>
-
-</div>
-
+<p>Millions of customers use Amazon services worldwide.</p>
 
 </div>
 
 </div>
 
+</div>
 
 <!-- Branches -->
 
@@ -358,8 +377,177 @@ Amazon Shopping, AWS, Prime Video, Alexa and Kindle
 <h2>🌍 Branches & Offices</h2>
 
 <p>
-Amazon has offices, fulfillment centers and operations
-in many countries.
+Amazon has offices, fulfillment centers and technology
+locations around the world.
 </p>
 
-<ul class="
+<ul class="branch-list">
+
+<li>🇺🇸 United States</li>
+
+<li>🇮🇳 India</li>
+
+<li>🇬🇧 United Kingdom</li>
+
+<li>🇨🇦 Canada</li>
+
+<li>🇦🇺 Australia</li>
+
+<li>🇩🇪 Germany</li>
+
+<li>🇸🇬 Singapore</li>
+
+<li>🇯🇵 Japan</li>
+
+</ul>
+
+</div>
+
+<!-- Major Services -->
+
+<div class="info-card">
+
+<h2>💼 Major Services</h2>
+
+<ul class="branch-list">
+
+<li>Amazon E-Commerce</li>
+
+<li>Amazon Web Services (AWS)</li>
+
+<li>Cloud Computing</li>
+
+<li>Artificial Intelligence</li>
+
+<li>Amazon Prime Video</li>
+
+<li>Alexa & Smart Devices</li>
+
+<li>Digital Services</li>
+
+</ul>
+
+</div>
+
+<!-- Job Profiles & Salary -->
+
+<div class="info-card">
+
+<h2>💰 Job Profile Wise Salary</h2>
+
+<table>
+
+<tr>
+
+<th>Job Profile</th>
+
+<th>Experience</th>
+
+<th>Average Salary</th>
+
+</tr>
+
+<tr>
+
+<td>Software Developer</td>
+
+<td>0-2 Years</td>
+
+<td>₹8 - ₹18 LPA</td>
+
+</tr>
+
+<tr>
+
+<td>Web Developer</td>
+
+<td>0-2 Years</td>
+
+<td>₹5 - ₹10 LPA</td>
+
+</tr>
+
+<tr>
+
+<td>Data Analyst</td>
+
+<td>0-2 Years</td>
+
+<td>₹6 - ₹12 LPA</td>
+
+</tr>
+
+<tr>
+
+<td>Software Tester</td>
+
+<td>0-2 Years</td>
+
+<td>₹5 - ₹10 LPA</td>
+
+</tr>
+
+<tr>
+
+<td>Data Scientist</td>
+
+<td>1-3 Years</td>
+
+<td>₹10 - ₹20 LPA</td>
+
+</tr>
+
+<tr>
+
+<td>Cloud Engineer</td>
+
+<td>1-3 Years</td>
+
+<td>₹8 - ₹18 LPA</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<!-- Interview Questions -->
+
+<div class="info-card interview">
+
+<h2>🎯 Frequently Asked Interview Questions</h2>
+
+<p>
+
+Prepare for your Amazon interview with our
+Top 50 Important Interview Questions.
+
+</p>
+
+<br>
+
+<a href="interview_questions.php">
+
+View Top 50 Interview Questions →
+
+</a>
+
+</div>
+
+<!-- Back -->
+
+<div class="back">
+
+<a href="companies.php">
+
+← Back to All Companies
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

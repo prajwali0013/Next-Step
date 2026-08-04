@@ -6,13 +6,11 @@
 
 <meta charset="UTF-8">
 
-<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/cognizant-icon.png" alt="Cognizant Logo">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Cognizant Company</title>
 
 <style>
-
-/* Universal */
 
 *{
     margin:0;
@@ -21,14 +19,10 @@
     font-family:Arial, sans-serif;
 }
 
-
-/* Body */
-
 body{
     background:#eef6ff;
     color:#333;
 }
-
 
 /* Header */
 
@@ -45,18 +39,15 @@ header h1{
 
 header p{
     margin-top:10px;
-    font-size:18px;
 }
 
-
-/* Main Container */
+/* Container */
 
 .container{
     width:90%;
     max-width:1100px;
     margin:30px auto;
 }
-
 
 /* Company Header */
 
@@ -71,7 +62,7 @@ header p{
 
 .company-header img{
     width:150px;
-    height:130px;
+    height:120px;
     object-fit:contain;
 }
 
@@ -84,7 +75,6 @@ header p{
 .company-header p{
     margin-top:10px;
 }
-
 
 /* Information Cards */
 
@@ -107,8 +97,7 @@ header p{
     line-height:1.7;
 }
 
-
-/* Founder */
+/* Founder / Leadership */
 
 .owner{
     display:flex;
@@ -130,7 +119,6 @@ header p{
     margin-bottom:10px;
 }
 
-
 /* Details */
 
 .details{
@@ -150,14 +138,12 @@ header p{
     margin-bottom:8px;
 }
 
-
-/* Branches and Services */
+/* Branches */
 
 .branch-list{
     line-height:2;
     padding-left:25px;
 }
-
 
 /* Salary Table */
 
@@ -182,12 +168,10 @@ table tr:nth-child(even){
     background:#eef6ff;
 }
 
-
 /* Interview */
 
 .interview{
     text-align:center;
-    margin:30px 0;
 }
 
 .interview p{
@@ -203,36 +187,29 @@ table tr:nth-child(even){
     border-radius:30px;
     font-size:18px;
     font-weight:bold;
-    margin-top:10px;
+    margin-top:15px;
 }
 
 .interview a:hover{
     background:#003b73;
 }
 
-
-/* Back Button */
+/* Back */
 
 .back{
     text-align:center;
-    margin-bottom:40px;
+    margin:30px 0 40px;
 }
 
 .back a{
     text-decoration:none;
     color:#003b73;
     font-weight:bold;
-    font-size:18px;
 }
 
-
-/* Mobile Responsive */
+/* Mobile */
 
 @media(max-width:700px){
-
-    header h1{
-        font-size:30px;
-    }
 
     .details{
         grid-template-columns:1fr;
@@ -252,6 +229,10 @@ table tr:nth-child(even){
         padding:10px;
     }
 
+    header h1{
+        font-size:30px;
+    }
+
 }
 
 </style>
@@ -264,19 +245,23 @@ table tr:nth-child(even){
 
 <header>
 
-<h1>Cognizant</h1>
+<h1>Cognizant Technology Solutions</h1>
 
 <p>Company Information & Career Guide</p>
 
 </header>
-
-<!-- Main Container -->
 
 <div class="container">
 
 <!-- Company Logo -->
 
 <div class="company-header">
+
+<img
+src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/cognizant-icon.png"
+alt="Cognizant Logo"
+
+>
 
 <h2>Cognizant Technology Solutions</h2>
 
@@ -295,20 +280,23 @@ Information Technology • Consulting • Digital Transformation • Artificial 
 <p>
 
 Cognizant Technology Solutions is a leading multinational
-information technology and consulting company.
+information technology services and consulting company.
 
 Cognizant was established in 1994 and provides technology
 and business services to organizations around the world.
 
 The company provides services in software development,
 cloud computing, artificial intelligence, data analytics,
-cyber security and digital transformation.
+cybersecurity and digital transformation.
+
+Cognizant serves clients across various industries and
+has a strong presence in the global IT services market.
 
 </p>
 
 </div>
 
-<!-- Founder / CEO -->
+<!-- Founder / Leadership -->
 
 <div class="info-card">
 
@@ -316,14 +304,18 @@ cyber security and digital transformation.
 
 <div class="owner">
 
-<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/cognizant-icon.png" alt="Cognizant Logo">
+<img
+src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/cognizant-icon.png"
+alt="Cognizant Logo"
+
+>
 
 <div>
 
 <h3>Ravi Kumar S</h3>
 
 <p>
-Chief Executive Officer of Cognizant
+Chief Executive Officer of Cognizant.
 </p>
 
 <p>
@@ -388,7 +380,8 @@ serving clients across different industries.
 <h2>🌍 Branches & Offices</h2>
 
 <p>
-Cognizant has offices and delivery centers in many countries.
+Cognizant has offices and delivery centers
+in many countries around the world.
 </p>
 
 <ul class="branch-list">
@@ -427,7 +420,7 @@ Cognizant has offices and delivery centers in many countries.
 
 <li>Data Analytics</li>
 
-<li>Cyber Security</li>
+<li>Cybersecurity</li>
 
 <li>Digital Transformation</li>
 
@@ -526,8 +519,10 @@ Cognizant has offices and delivery centers in many countries.
 <h2>🎯 Frequently Asked Interview Questions</h2>
 
 <p>
+
 Prepare for your Cognizant interview with our
 Top 50 Important Interview Questions.
+
 </p>
 
 <a href="interview_questions.php">
@@ -538,7 +533,7 @@ View Top 50 Interview Questions →
 
 </div>
 
-<!-- Back Button -->
+<!-- Back -->
 
 <div class="back">
 

@@ -10,71 +10,213 @@
 <title>Google Company</title>
 
 <style>
-body{
-    background:#f5f7fa;
-    color:#333;
-    font-family:"Segoe UI",sans-serif;
-}
-.container{
-    width:85%;
-    max-width:1200px;
-    margin:40px auto;
-    background:#fff;
-    padding:40px;
-}
-.company-header{
-    text-align:center;
-    padding-bottom:30px;
-    border-bottom:2px solid #e5e5e5;
-    margin-bottom:40px;
-}
-.info-card{
-    background:none;
-    box-shadow:none;
-    border-radius:0;
+
+*{
+    margin:0;
     padding:0;
-    margin-bottom:40px;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
+
+body{
+    background:#eef6ff;
+    color:#333;
+}
+
+
+/* Header */
+
+header{
+    background:#003b73;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+
+/* Main Container */
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:30px auto;
+}
+
+
+/* Company Logo Section */
+
+.company-header{
+    background:white;
+    text-align:center;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    margin-bottom:25px;
+}
+
+.company-header img{
+    width:130px;
+    height:130px;
+    object-fit:contain;
+}
+
+.company-header h2{
+    color:#003b73;
+    margin-top:15px;
+    font-size:30px;
+}
+
+
+/* Information Cards */
+
+.info-card{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+}
+
 .info-card h2{
-    color:#0f4c81;
-    font-size:28px;
+    color:#003b73;
     margin-bottom:15px;
-    border-bottom:2px solid #0f4c81;
-    padding-bottom:8px;
+    border-bottom:3px solid #0074cc;
+    padding-bottom:10px;
 }
+
+.info-card p{
+    line-height:1.7;
+}
+
+
+/* Owner */
+
+.owner{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.owner img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+
+/* Details */
+
+.details{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
 .detail-box{
-    background:none;
-    border:1px solid #ddd;
+    background:#eef6ff;
     padding:20px;
-    border-radius:8px;
+    border-radius:10px;
 }
+
+.detail-box h3{
+    color:#003b73;
+    margin-bottom:8px;
+}
+
+
+/* Branches */
+
+.branch-list{
+    line-height:2;
+    padding-left:20px;
+}
+
+
+/* Salary Table */
+
 table{
     width:100%;
     border-collapse:collapse;
-    margin-top:20px;
 }
 
 table th{
-    background:#0f4c81;
-    color:#fff;
+    background:#003b73;
+    color:white;
+    padding:15px;
 }
 
-table th,
 table td{
     padding:15px;
     border:1px solid #ddd;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#eef6ff;
+}
+
+
+/* Interview Button */
+
+.interview{
+    text-align:center;
+    margin:30px 0;
 }
 
 .interview a{
-    background:#0f4c81;
-    color:#fff;
-    padding:14px 30px;
-    border-radius:6px;
+    display:inline-block;
+    background:#0074cc;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
 }
 
 .interview a:hover{
-    background:#08345b;
+    background:#003b73;
 }
+
+
+/* Back Button */
+
+.back{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.back a{
+    text-decoration:none;
+    color:#003b73;
+    font-weight:bold;
+}
+
+
+/* Mobile */
+
+@media(max-width:700px){
+
+    .details{
+        grid-template-columns:1fr;
+    }
+
+    .owner{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
+
 </style>
 
 </head>

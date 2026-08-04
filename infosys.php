@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 
-<img src="https://cdn.simpleicons.org/infosys">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Infosys Company</title>
 
@@ -215,35 +216,31 @@ table tr:nth-child(even){
 
 <body>
 
-
 <!-- Header -->
 
 <header>
 
-<h1>Infosys</h1>
+<h1>Infosys Limited</h1>
 
 <p>Company Information & Career Guide</p>
 
 </header>
 
-
 <div class="container">
-
 
 <!-- Company Logo -->
 
 <div class="company-header">
 
-<img src="https://cdn.simpleicons.org/infosys">
+<img src="https://cdn.simpleicons.org/infosys" alt="Infosys Logo">
 
-<h2>Infosys</h2>
+<h2>Infosys Limited</h2>
 
 <p>
-IT Services • Consulting • Digital Transformation • Artificial Intelligence
+IT Services • Consulting • Cloud • Artificial Intelligence
 </p>
 
 </div>
-
 
 <!-- History -->
 
@@ -253,18 +250,19 @@ IT Services • Consulting • Digital Transformation • Artificial Intelligenc
 
 <p>
 
-Infosys Limited is an Indian multinational information
-technology company.
+Infosys Limited is an Indian multinational
+information technology services and consulting company.
 
-Infosys was founded in 1981 by Narayana Murthy and
-six other co-founders.
+Infosys was established in 1981 by N. R. Narayana Murthy
+and six other co-founders.
 
 The company started with a small team and gradually
 expanded its operations across the world.
 
-Today Infosys provides IT consulting, software development,
-cloud computing, artificial intelligence, cybersecurity,
-data analytics and digital transformation services.
+Infosys provides services in software development,
+IT consulting, cloud computing, cybersecurity,
+artificial intelligence, data analytics and
+digital transformation.
 
 Infosys is one of India's leading IT services companies.
 
@@ -272,8 +270,7 @@ Infosys is one of India's leading IT services companies.
 
 </div>
 
-
-<!-- Founder -->
+<!-- Founder / Owner -->
 
 <div class="info-card">
 
@@ -281,15 +278,15 @@ Infosys is one of India's leading IT services companies.
 
 <div class="owner">
 
-<img src="https://cdn.simpleicons.org/infosys">
-
+<img src="https://cdn.simpleicons.org/infosys" alt="Infosys">
 
 <div>
 
 <h3>N. R. Narayana Murthy</h3>
 
 <p>
-Co-founder of Infosys
+Co-founder of Infosys and one of the leading
+figures in the Indian IT industry.
 </p>
 
 <p>
@@ -303,7 +300,6 @@ and six other co-founders.
 
 </div>
 
-
 <!-- Company Details -->
 
 <div class="info-card">
@@ -311,7 +307,6 @@ and six other co-founders.
 <h2>🏢 Company Details</h2>
 
 <div class="details">
-
 
 <div class="detail-box">
 
@@ -321,7 +316,6 @@ and six other co-founders.
 
 </div>
 
-
 <div class="detail-box">
 
 <h3>👥 Employees</h3>
@@ -329,7 +323,6 @@ and six other co-founders.
 <p>More than 300,000 employees worldwide</p>
 
 </div>
-
 
 <div class="detail-box">
 
@@ -339,22 +332,17 @@ and six other co-founders.
 
 </div>
 
-
 <div class="detail-box">
 
-<h3>💻 Main Services</h3>
+<h3>🏢 Industry</h3>
 
-<p>
-IT Consulting, Cloud, AI, Cybersecurity and Digital Services
-</p>
-
-</div>
-
+<p>Information Technology & Consulting</p>
 
 </div>
 
 </div>
 
+</div>
 
 <!-- Branches -->
 
@@ -389,7 +377,6 @@ in many countries around the world.
 
 </div>
 
-
 <!-- Salary -->
 
 <div class="info-card">
@@ -408,7 +395,6 @@ in many countries around the world.
 
 </tr>
 
-
 <tr>
 
 <td>Software Developer</td>
@@ -418,7 +404,6 @@ in many countries around the world.
 <td>₹3.5 - ₹7 LPA</td>
 
 </tr>
-
 
 <tr>
 
@@ -430,7 +415,6 @@ in many countries around the world.
 
 </tr>
 
-
 <tr>
 
 <td>Data Analyst</td>
@@ -440,7 +424,6 @@ in many countries around the world.
 <td>₹4 - ₹8 LPA</td>
 
 </tr>
-
 
 <tr>
 
@@ -452,7 +435,6 @@ in many countries around the world.
 
 </tr>
 
-
 <tr>
 
 <td>Data Scientist</td>
@@ -462,7 +444,6 @@ in many countries around the world.
 <td>₹6 - ₹15 LPA</td>
 
 </tr>
-
 
 <tr>
 
@@ -474,7 +455,6 @@ in many countries around the world.
 
 </tr>
 
-
 <tr>
 
 <td>System Engineer</td>
@@ -485,11 +465,9 @@ in many countries around the world.
 
 </tr>
 
-
 </table>
 
 </div>
-
 
 <!-- Interview Questions -->
 
@@ -514,7 +492,6 @@ View Top 50 Interview Questions →
 
 </div>
 
-
 <!-- Back -->
 
 <div class="back">
@@ -526,7 +503,6 @@ View Top 50 Interview Questions →
 </a>
 
 </div>
-
 
 </div>
 
