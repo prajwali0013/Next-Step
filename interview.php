@@ -63,9 +63,37 @@ display:inline-block;
 .card a:hover{
 background:#1257d6;
 }
-
 </style>
 <body>
+<header>
+
+    <div class="logo">
+
+        <img src="image/logo.jpeg" alt="NEXT STEP Logo">
+
+        <div>
+            <h2>NEXT STEP</h2>
+            <p>Your Journey to a Successful Career</p>
+        </div>
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.php" class="active">Home</a></li>
+            <li><a href="career.php">Career</a></li>
+            <li><a href="company.php">Company</a></li>
+            <li><a href="resume-builder.php">Resume Builder</a></li>
+            <li><a href="interview.php">Interview Practice</a></li>
+            <li><a href="feedback.php">Feedback</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
 <section class="interview">
 
 <h2>Interview Practice</h2>
@@ -138,5 +166,51 @@ Evaluate your communication skills and interview performance.
 </div>
 
 </section>
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>NEXT STEP</h2>
+
+            <p>
+                Your Journey to a Successful Career Starts Here.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.php">Home</a>
+            <a href="career.php">Career</a>
+            <a href="company.php">Company</a>
+            <a href="resume-builder.php">Resume Builder</a>
+            <a href="interview.php">Interview Practice</a>
+            <a href="feedback.php">Feedback</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p>Email : nextstep@gmail.com</p>
+
+            <p>Kolhapur, Maharashtra</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copy">
+        Copyright © 2026 NEXT STEP | All Rights Reserved.
+    </p>
+
+</footer>
 </body>
 </html>

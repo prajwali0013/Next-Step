@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Data Science | NextStep</title>
+<title>Mechanical Engineering | NextStep</title>
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -120,6 +120,8 @@ width:45%;
 
 .right img{
 width:100%;
+max-height:450px;
+object-fit:contain;
 }
 
 </style>
@@ -134,6 +136,7 @@ width:100%;
     <img src="image/logo.jpeg" alt="Logo" style="height:45px; vertical-align:middle;">
     <span>Next</span>Step
 </div>
+
 <nav>
 
 <ul>
@@ -158,25 +161,32 @@ width:100%;
 
 Become a
 
-<span>Data Scientist</span>
+<span>Mechanical Engineer</span>
 
 </h1>
 
 <p>
 
-Learn Data Science, Python, Statistics, Machine Learning and Data Visualization to solve real-world business problems and build a successful career.
+Learn Mechanical Engineering, CAD Design, Manufacturing, Thermodynamics,
+Automobile Engineering and Industrial Automation to build a successful engineering career.
 
 </p>
+
+<a href="#" class="btn">
+
+Start Learning
+
+</a>
 
 </div>
 
 <div class="right">
 
-<img src="image/Data science.jpg" alt="Data Science">
+<img src="image/Mechanical Engineering.jpg" alt="Mechanical Engineering">
 
 </div>
 
-</section><!-- ================= ABOUT DATA SCIENCE & SKILLS ================= -->
+</section><!-- ================= ABOUT MECHANICAL ENGINEERING & SKILLS ================= -->
 
 <style>
 
@@ -236,8 +246,8 @@ gap:25px;
 .skill-card{
 background:#fff;
 padding:30px;
-border-radius:18px;
 text-align:center;
+border-radius:18px;
 box-shadow:0 8px 20px rgba(0,0,0,.08);
 transition:.3s;
 }
@@ -253,7 +263,7 @@ margin-bottom:15px;
 }
 
 .skill-card h3{
-margin-bottom:15px;
+margin-bottom:12px;
 color:#0F172A;
 }
 
@@ -268,19 +278,17 @@ line-height:26px;
 
 <div class="about-text">
 
-<h2>What is Data Science?</h2>
+<h2>What is Mechanical Engineering?</h2>
 
 <p>
 
-Data Science is the process of collecting, cleaning, analyzing and
-interpreting data to solve business problems and make better decisions.
+Mechanical Engineering is one of the oldest and broadest engineering fields. It focuses on designing, manufacturing, testing and maintaining machines, vehicles, industrial equipment and mechanical systems.
 
 </p>
 
 <p>
 
-Data Scientists use programming, statistics, machine learning and
-visualization tools to discover insights from large datasets.
+Mechanical Engineers work in industries such as automobile, aerospace, energy, robotics, manufacturing, production and industrial automation.
 
 </p>
 
@@ -288,7 +296,7 @@ visualization tools to discover insights from large datasets.
 
 <div class="about-image">
 
-<img src="image/data.jpg" alt="Data Science">
+<img src="image/mechanical.jpg" alt="Mechanical Engineering">
 
 </div>
 
@@ -301,27 +309,27 @@ visualization tools to discover insights from large datasets.
 <div class="skill-grid">
 
 <div class="skill-card">
-<i class="fa-brands fa-python"></i>
-<h3>Python</h3>
-<p>Programming language used for data analysis and machine learning.</p>
+<i class="fa-solid fa-compass-drafting"></i>
+<h3>AutoCAD</h3>
+<p>Create accurate 2D and 3D engineering drawings and designs.</p>
 </div>
 
 <div class="skill-card">
-<i class="fa-solid fa-chart-line"></i>
-<h3>Statistics</h3>
-<p>Understand data patterns, probability and hypothesis testing.</p>
+<i class="fa-solid fa-cube"></i>
+<h3>SolidWorks</h3>
+<p>Design mechanical parts, assemblies and 3D product models.</p>
 </div>
 
 <div class="skill-card">
-<i class="fa-solid fa-brain"></i>
-<h3>Machine Learning</h3>
-<p>Create predictive models using modern ML algorithms.</p>
+<i class="fa-solid fa-gears"></i>
+<h3>Manufacturing</h3>
+<p>Learn production processes, machining and quality control.</p>
 </div>
 
 <div class="skill-card">
-<i class="fa-solid fa-chart-pie"></i>
-<h3>Data Visualization</h3>
-<p>Create dashboards using Power BI, Tableau and Matplotlib.</p>
+<i class="fa-solid fa-industry"></i>
+<h3>Industrial Automation</h3>
+<p>Understand PLC, robotics and modern automated manufacturing systems.</p>
 </div>
 
 </div>
@@ -446,32 +454,32 @@ transform:translateY(-8px);
 
 <section class="roadmap">
 
-<h2>Data Science Roadmap</h2>
+<h2>Mechanical Engineering Roadmap</h2>
 
 <div class="roadmap-grid">
 
 <div class="road-card">
-<i class="fa-brands fa-python"></i>
+<i class="fa-solid fa-book"></i>
 <h3>Step 1</h3>
-<p>Learn Python, SQL and basic programming concepts.</p>
+<p>Learn Engineering Mathematics, Physics and Engineering Drawing.</p>
 </div>
 
 <div class="road-card">
-<i class="fa-solid fa-chart-line"></i>
+<i class="fa-solid fa-compass-drafting"></i>
 <h3>Step 2</h3>
-<p>Study Statistics, Data Analysis and Data Visualization.</p>
+<p>Master AutoCAD, SolidWorks, CATIA and 3D Design.</p>
 </div>
 
 <div class="road-card">
-<i class="fa-solid fa-brain"></i>
+<i class="fa-solid fa-gears"></i>
 <h3>Step 3</h3>
-<p>Master Machine Learning and build real-world projects.</p>
+<p>Study Manufacturing, Thermodynamics, Robotics and Industrial Automation.</p>
 </div>
 
 <div class="road-card">
 <i class="fa-solid fa-briefcase"></i>
 <h3>Step 4</h3>
-<p>Create a portfolio and apply for Data Science jobs.</p>
+<p>Build projects, complete internships and apply for Mechanical Engineering jobs.</p>
 </div>
 
 </div>
@@ -482,19 +490,19 @@ transform:translateY(-8px);
 
 <div class="salary-card">
 <h3>Fresher</h3>
-<h2>₹5 – ₹9 LPA</h2>
+<h2>₹3 – ₹6 LPA</h2>
 <p>0–2 Years Experience</p>
 </div>
 
 <div class="salary-card">
 <h3>Mid Level</h3>
-<h2>₹10 – ₹18 LPA</h2>
+<h2>₹7 – ₹12 LPA</h2>
 <p>2–5 Years Experience</p>
 </div>
 
 <div class="salary-card">
 <h3>Senior</h3>
-<h2>₹20+ LPA</h2>
+<h2>₹15+ LPA</h2>
 <p>5+ Years Experience</p>
 </div>
 
@@ -506,21 +514,21 @@ transform:translateY(-8px);
 
 <div class="company-grid">
 
-<div class="company-box">Google</div>
+<div class="company-box">Tata Motors</div>
 
-<div class="company-box">Microsoft</div>
+<div class="company-box">Mahindra</div>
 
-<div class="company-box">Amazon</div>
+<div class="company-box">Maruti Suzuki</div>
 
-<div class="company-box">IBM</div>
+<div class="company-box">Ashok Leyland</div>
 
-<div class="company-box">Accenture</div>
+<div class="company-box">Larsen & Toubro</div>
 
-<div class="company-box">Infosys</div>
+<div class="company-box">Bosch</div>
 
-<div class="company-box">TCS</div>
+<div class="company-box">Siemens</div>
 
-<div class="company-box">Deloitte</div>
+<div class="company-box">BHEL</div>
 
 </div>
 
@@ -566,7 +574,7 @@ margin-bottom:15px;
 }
 
 .tool-card h3{
-margin-bottom:10px;
+margin-bottom:12px;
 color:#0F172A;
 }
 
@@ -619,8 +627,8 @@ margin:80px auto;
 .faq h2{
 text-align:center;
 font-size:40px;
-margin-bottom:40px;
 color:#0F172A;
+margin-bottom:40px;
 }
 
 .faq-box{
@@ -645,10 +653,10 @@ line-height:26px;
 width:90%;
 margin:80px auto;
 background:#2563EB;
-color:#fff;
 padding:60px;
 text-align:center;
 border-radius:20px;
+color:#fff;
 }
 
 .cta h2{
@@ -676,276 +684,47 @@ background:#E2E8F0;
 }
 
 footer{
+margin-top:80px;
 background:#0F172A;
 color:#fff;
+padding:35px;
 text-align:center;
-padding:30px;
-margin-top:80px;
-}
-/*==============================
-        HEADER
-==============================*/
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
-body{
-    padding-top:90px;
-}
-
-/* Header */
-
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:90px;
-    background:#000;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 70px;
-    z-index:1000;
-    box-shadow:0 5px 20px rgba(0,0,0,.5);
-}
-
-/* Logo */
-
-.logo{
-    display:flex;
-    align-items:center;
-}
-
-.logo img{
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    margin-right:15px;
-    object-fit:cover;
-    border:2px solid #3b82f6;
-}
-
-.logo h2{
-    color:#fff;
-    font-size:30px;
-    margin-bottom:5px;
-}
-
-.logo p{
-    color:#d1d5db;
-    font-size:14px;
-}
-
-/* Navigation */
-
-nav ul{
-    display:flex;
-    list-style:none;
-}
-
-nav ul li{
-    margin-left:35px;
-}
-
-nav ul li a{
-    color:#fff;
-    text-decoration:none;
-    font-size:16px;
-    font-weight:600;
-    position:relative;
-    transition:.3s;
-}
-
-nav ul li a::after{
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:-6px;
-    width:0;
-    height:2px;
-    background:#3b82f6;
-    transition:.3s;
-}
-
-nav ul li a:hover,
-nav ul li a.active{
-    color:#3b82f6;
-}
-
-nav ul li a:hover::after,
-nav ul li a.active::after{
-    width:100%;
-}
-
-/*==============================
-        FOOTER
-==============================*/
-
-footer{
-    background:#000;
-    color:#fff;
-    padding:70px 8% 25px;
-}
-
-.footer-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:40px;
-    margin-bottom:30px;
-}
-
-.footer-box h2{
-    color:#3b82f6;
-    margin-bottom:15px;
-}
-
-.footer-box h3{
-    color:#fff;
-    margin-bottom:15px;
-}
-
-.footer-box p{
-    color:#cbd5e1;
-    line-height:28px;
-}
-
-.footer-box a{
-    display:block;
-    color:#cbd5e1;
-    text-decoration:none;
-    margin-bottom:10px;
-    transition:.3s;
-}
-
-.footer-box a:hover{
-    color:#3b82f6;
-    padding-left:8px;
-}
-
-footer hr{
-    border:none;
-    height:1px;
-    background:#333;
-    margin:25px 0;
-}
-
-.copy{
-    text-align:center;
-    color:#94a3b8;
-    font-size:15px;
-}
-
-/*==============================
-        RESPONSIVE
-==============================*/
-
-@media(max-width:992px){
-
-    header{
-        padding:0 25px;
-    }
-
-    nav ul li{
-        margin-left:18px;
-    }
-
-    .logo h2{
-        font-size:25px;
-    }
-
-}
-
-@media(max-width:768px){
-
-    header{
-        position:relative;
-        height:auto;
-        flex-direction:column;
-        padding:20px;
-    }
-
-    body{
-        padding-top:0;
-    }
-
-    nav ul{
-        flex-wrap:wrap;
-        justify-content:center;
-        margin-top:20px;
-    }
-
-    nav ul li{
-        margin:10px;
-    }
-
-    .footer-container{
-        text-align:center;
-    }
+footer p{
+font-size:16px;
 }
 
 </style>
-<header>
 
-    <div class="logo">
-
-        <img src="image/logo.jpeg" alt="NEXT STEP Logo">
-
-        <div>
-            <h2>NEXT STEP</h2>
-            <p>Your Journey to a Successful Career</p>
-        </div>
-
-    </div>
-
-    <nav>
-
-        <ul>
-
-            <li><a href="index.php" class="active">Home</a></li>
-            <li><a href="career.php">Career</a></li>
-            <li><a href="company.php">Company</a></li>
-            <li><a href="resume-builder.php">Resume Builder</a></li>
-            <li><a href="interview.php">Interview Practice</a></li>
-            <li><a href="feedback.php">Feedback</a></li>
-
-        </ul>
-
-    </nav>
-
-</header>
 <section class="tools">
 
-<h2>Data Science Tools</h2>
+<h2>Mechanical Engineering Tools</h2>
 
 <div class="tools-grid">
 
 <div class="tool-card">
-<i class="fa-brands fa-python"></i>
-<h3>Python</h3>
-<p>Programming language for data analysis and machine learning.</p>
+<i class="fa-solid fa-compass-drafting"></i>
+<h3>AutoCAD</h3>
+<p>Create professional 2D and 3D engineering drawings.</p>
 </div>
 
 <div class="tool-card">
-<i class="fa-solid fa-database"></i>
-<h3>SQL</h3>
-<p>Store, retrieve and manage structured data.</p>
+<i class="fa-solid fa-cube"></i>
+<h3>SolidWorks</h3>
+<p>Design mechanical parts, assemblies and product models.</p>
 </div>
 
 <div class="tool-card">
-<i class="fa-solid fa-chart-column"></i>
-<h3>Power BI</h3>
-<p>Create interactive dashboards and business reports.</p>
+<i class="fa-solid fa-gears"></i>
+<h3>CATIA</h3>
+<p>Develop advanced product designs for automotive and aerospace industries.</p>
 </div>
 
 <div class="tool-card">
-<i class="fa-solid fa-table"></i>
-<h3>Tableau</h3>
-<p>Visualize complex datasets with powerful charts.</p>
+<i class="fa-solid fa-chart-line"></i>
+<h3>ANSYS</h3>
+<p>Perform simulation and engineering analysis for mechanical systems.</p>
 </div>
 
 </div>
@@ -954,28 +733,28 @@ footer hr{
 
 <section class="course-section">
 
-<h2>Top Data Science Courses</h2>
+<h2>Top Courses & Certifications</h2>
 
 <div class="course-grid">
 
 <div class="course-card">
-<h3>Python for Data Science</h3>
-<p>Learn Python programming for data analysis and automation.</p>
+<h3>AutoCAD Professional</h3>
+<p>Master engineering drafting and mechanical design.</p>
 </div>
 
 <div class="course-card">
-<h3>Machine Learning</h3>
-<p>Build predictive models using real-world datasets.</p>
+<h3>SolidWorks Certification</h3>
+<p>Learn professional 3D modeling and product development.</p>
 </div>
 
 <div class="course-card">
-<h3>SQL & Database</h3>
-<p>Master SQL queries and database management.</p>
+<h3>CATIA Design Course</h3>
+<p>Develop advanced mechanical and automotive components.</p>
 </div>
 
 <div class="course-card">
-<h3>Data Visualization</h3>
-<p>Create dashboards using Power BI and Tableau.</p>
+<h3>ANSYS Simulation</h3>
+<p>Learn structural, thermal and fluid simulation techniques.</p>
 </div>
 
 </div>
@@ -987,78 +766,37 @@ footer hr{
 <h2>Frequently Asked Questions</h2>
 
 <div class="faq-box">
-<h3>Is Data Science a good career?</h3>
-<p>Yes. It is one of the highest-paying and fastest-growing careers worldwide.</p>
+<h3>Is Mechanical Engineering a good career?</h3>
+<p>Yes. Mechanical Engineers have opportunities in manufacturing, automotive, aerospace, robotics, energy and industrial sectors.</p>
 </div>
 
 <div class="faq-box">
-<h3>Do I need programming?</h3>
-<p>Yes. Python and SQL are essential skills for most Data Science roles.</p>
+<h3>Which software should a Mechanical Engineer learn?</h3>
+<p>AutoCAD, SolidWorks, CATIA and ANSYS are among the most widely used tools.</p>
 </div>
 
 <div class="faq-box">
-<h3>Can freshers become Data Scientists?</h3>
-<p>Yes. With strong projects, internships and technical skills, freshers can start in Data Analyst or Junior Data Scientist roles.</p>
+<h3>Can Mechanical Engineers work in the IT industry?</h3>
+<p>Yes. With additional skills in CAD, automation, simulation, programming or data analysis, many Mechanical Engineers also work in technology companies.</p>
 </div>
 
 </section>
 
 <section class="cta">
 
-<h2>Start Your Data Science Journey</h2>
+<h2>Start Your Mechanical Engineering Journey</h2>
 
-<p>Learn in-demand skills, build projects and become a professional Data Scientist.</p>
+<p>Build industry-ready skills, complete practical projects, earn certifications and prepare for a successful engineering career.</p>
 
 <a href="#">Start Learning</a>
 
 </section>
+
 <footer>
 
-    <div class="footer-container">
-
-        <div class="footer-box">
-
-            <h2>NEXT STEP</h2>
-
-            <p>
-                Your Journey to a Successful Career Starts Here.
-            </p>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Quick Links</h3>
-
-            <a href="index.php">Home</a>
-            <a href="career.php">Career</a>
-            <a href="company.php">Company</a>
-            <a href="resume-builder.php">Resume Builder</a>
-            <a href="interview.php">Interview Practice</a>
-            <a href="feedback.php">Feedback</a>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Contact</h3>
-
-            <p>Email : nextstep@gmail.com</p>
-
-            <p>Kolhapur, Maharashtra</p>
-
-        </div>
-
-    </div>
-
-    <hr>
-
-    <p class="copy">
-        Copyright © 2026 NEXT STEP | All Rights Reserved.
-    </p>
+<p>© 2026 NextStep | Mechanical Engineering | All Rights Reserved.</p>
 
 </footer>
-
 
 </body>
 </html>

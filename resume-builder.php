@@ -246,10 +246,171 @@ border:none;
 border-radius:8px;
 cursor:pointer;
 }
+*====================================
+        PREMIUM FOOTER
+====================================*/
 
+footer{
+    background:linear-gradient(135deg,#0B1F3A,#163A70,#0F172A)!important;
+    color:#fff;
+    padding:80px 8% 30px;
+}
+
+.footer-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:50px;
+
+    margin-bottom:40px;
+	color:#131C2F;
+}
+
+.footer-container h2,
+.footer-container h3{
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+}
+
+.footer-container p{
+
+    color:#cbd5e1;
+
+    line-height:28px;
+}
+
+.footer-container a{
+
+    display:block;
+
+    color:#cbd5e1;
+
+    text-decoration:none;
+
+    margin-bottom:12px;
+
+    transition:.3s;
+}
+
+.footer-container a:hover{
+
+    color:#60a5fa;
+
+    transform:translateX(8px);
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:90px;
+    background:#000;      /* Black Header */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 70px;
+    z-index:9999;
+    box-shadow:0 5px 20px rgba(0,0,0,.5);
+}
+
+/* Body ला Header खाली Space */
+body{
+    padding-top:90px;
+}
+
+/* Logo */
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:80px;          /* Logo मोठा */
+    height:80px;
+    border-radius:50%;
+    margin-right:15px;
+}
+
+.logo h2{
+    color:#fff;
+    font-size:34px;
+    font-weight:bold;
+}
+
+.logo p{
+    color:#d1d5db;
+    font-size:15px;
+}
+
+/* Navigation */
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;          /* White Menu */
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+    padding-bottom:5px;
+}
+
+nav ul li a:hover{
+    color:#3b82f6;
+    border-bottom:2px solid #3b82f6;
+}
 </style>
+<body>
+<header>
 
+<div class="logo">
 
+<img src="image/logo.jpeg" height=90% width=50%>
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>Your Journey to a Successful Career</p>
+
+</div>
+
+</div>
+
+<nav style="text-decoration:none;">
+
+<ul>
+
+<li><a href="index.php">Home</a></li>
+
+<li><a href="career.php">Career</a></li>
+
+<li><a href="company.php">Company</a></li>
+
+<li><a href="resume-builder.php">Resume Builder</a></li>
+
+<li><a href="interview.php">Interview Practice</a></li>
+
+<li><a href="feedback.php">Feedback</a></li>
+
+</ul>
+
+</nav>
+
+</header>
 
 
 
@@ -529,7 +690,61 @@ Generate Resume
 </form>
 
 </div>
+<footer>
 
+<div class="footer-container">
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>
+Your Journey to a Successful Career Starts Here.
+</p>
+
+</div>
+
+<div align="left">
+
+<h3>Quick Links</h3>
+
+<a href="index.php">Home</a>
+
+<a href="career.php">Career</a>
+
+<a href="company.php">Company</a>
+
+<a href="resume-builder.php">Resume Builder</a>
+
+<a href="interview.php">Interview Practice</a>
+
+<a href="feedback.php">Feedback</a>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email : nextstep@gmail.com</p>
+
+
+
+<p>Kolhapur, Maharashtra</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copy">
+
+Copyright © 2026 NEXT STEP | All Rights Reserved.
+
+</p>
+
+</footer>
 </body>
 
 </html>

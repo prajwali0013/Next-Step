@@ -546,7 +546,52 @@ View Top 50 Interview Questions →
 </div>
 
 </div>
+<footer>
 
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>NEXT STEP</h2>
+
+            <p>
+                Your Journey to a Successful Career Starts Here.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.php">Home</a>
+            <a href="career.php">Career</a>
+            <a href="company.php">Company</a>
+            <a href="resume-builder.php">Resume Builder</a>
+            <a href="interview.php">Interview Practice</a>
+            <a href="feedback.php">Feedback</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p>Email : nextstep@gmail.com</p>
+
+            <p>Kolhapur, Maharashtra</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copy">
+        Copyright © 2026 NEXT STEP | All Rights Reserved.
+    </p>
+
+</footer>
 </body>
 
 </html>
