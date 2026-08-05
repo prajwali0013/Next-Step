@@ -690,61 +690,7 @@ Generate Resume
 </form>
 
 </div>
-<footer>
-
-<div class="footer-container">
-
-<div>
-
-<h2>NEXT STEP</h2>
-
-<p>
-Your Journey to a Successful Career Starts Here.
-</p>
-
-</div>
-
-<div align="left">
-
-<h3>Quick Links</h3>
-
-<a href="index.php">Home</a>
-
-<a href="career.php">Career</a>
-
-<a href="company.php">Company</a>
-
-<a href="resume-builder.php">Resume Builder</a>
-
-<a href="interview.php">Interview Practice</a>
-
-<a href="feedback.php">Feedback</a>
-
-</div>
-
-<div>
-
-<h3>Contact</h3>
-
-<p>Email : nextstep@gmail.com</p>
-
-
-
-<p>Kolhapur, Maharashtra</p>
-
-</div>
-
-</div>
-
-<hr>
-
-<p class="copy">
-
-Copyright © 2026 NEXT STEP | All Rights Reserved.
-
-</p>
-
-</footer>
+<
 </body>
 
 </html>

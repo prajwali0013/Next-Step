@@ -4,216 +4,649 @@
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Google Company</title>
+<title>Google Company | NEXT STEP</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
-    background:#eef6ff;
-    color:#333;
+background:#f4f8fc;
+padding-top:90px;
+color:#333;
 }
 
-
-/* Header */
+/*================ HEADER =================*/
 
 header{
-    background:#003b73;
-    color:white;
-    text-align:center;
-    padding:30px;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:90px;
+background:#000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 70px;
+z-index:9999;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
 }
 
-header h1{
-    font-size:40px;
+.logo{
+display:flex;
+align-items:center;
 }
 
-header p{
-    margin-top:10px;
+.logo img{
+width:70px;
+height:70px;
+border-radius:50%;
+margin-right:15px;
+object-fit:cover;
 }
 
-
-/* Main Container */
-
-.container{
-    width:90%;
-    max-width:1100px;
-    margin:30px auto;
+.logo h2{
+color:#fff;
+font-size:30px;
 }
 
-
-/* Company Logo Section */
-
-.company-header{
-    background:white;
-    text-align:center;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.15);
-    margin-bottom:25px;
+.logo p{
+color:#d1d5db;
+font-size:14px;
 }
 
-.company-header img{
-    width:130px;
-    height:130px;
-    object-fit:contain;
+nav ul{
+display:flex;
+list-style:none;
 }
 
-.company-header h2{
-    color:#003b73;
-    margin-top:15px;
-    font-size:30px;
+nav ul li{
+margin-left:35px;
 }
 
-
-/* Information Cards */
-
-.info-card{
-    background:white;
-    padding:25px;
-    margin-bottom:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+nav ul li a{
+text-decoration:none;
+color:#fff;
+font-size:17px;
+font-weight:600;
+transition:.3s;
+padding-bottom:5px;
 }
 
-.info-card h2{
-    color:#003b73;
-    margin-bottom:15px;
-    border-bottom:3px solid #0074cc;
-    padding-bottom:10px;
+nav ul li a:hover{
+color:#3b82f6;
+border-bottom:2px solid #3b82f6;
 }
 
-.info-card p{
-    line-height:1.7;
+/*================ HERO =================*/
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(10,35,80,.75),
+rgba(10,35,80,.75)),
+url("image/google-bg.jpg");
+
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
 }
 
-
-/* Owner */
-
-.owner{
-    display:flex;
-    align-items:center;
-    gap:25px;
+.hero-content{
+max-width:900px;
+color:#fff;
 }
 
-.owner img{
-    width:120px;
-    height:120px;
-    object-fit:cover;
-    border-radius:50%;
+.hero img{
+width:120px;
+height:120px;
+background:white;
+padding:20px;
+border-radius:50%;
+margin-bottom:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.4);
 }
 
+.hero h1{
+font-size:65px;
+margin-bottom:15px;
+}
 
-/* Details */
+.hero h1 span{
+color:#4dabff;
+}
+
+.hero p{
+font-size:22px;
+line-height:38px;
+margin-bottom:35px;
+}
+
+.hero-btn{
+display:inline-block;
+padding:16px 42px;
+background:#2196f3;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+margin:10px;
+}
+
+.hero-btn:hover{
+background:#0f4c81;
+transform:translateY(-5px);
+}
+
+.section-title{
+font-size:40px;
+color:#0f4c81;
+text-align:center;
+margin:80px 0 40px;
+}/*================ ABOUT =================*/
+
+.about-container{
+
+width:90%;
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 2fr;
+gap:50px;
+align-items:center;
+
+}
+
+.about-image img{
+
+width:260px;
+display:block;
+margin:auto;
+
+}
+
+.about-content{
+
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.about-content h3{
+
+font-size:35px;
+color:#0f4c81;
+margin-bottom:20px;
+
+}
+
+.about-content p{
+
+line-height:34px;
+font-size:18px;
+margin-bottom:18px;
+
+}
+
+/*================ FOUNDER =================*/
+
+.founder{
+
+width:90%;
+max-width:1200px;
+margin:80px auto;
+
+}
+
+.founder-card{
+
+display:flex;
+gap:35px;
+align-items:center;
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.founder-card img{
+
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+
+}
+
+.founder-card h3{
+
+font-size:34px;
+color:#0f4c81;
+
+}
+
+.founder-card h4{
+
+color:#2196f3;
+margin:12px 0;
+
+}
+
+.founder-card p{
+
+line-height:32px;
+
+}
+
+/*================ STATS =================*/
+
+.stats{
+
+width:90%;
+max-width:1200px;
+margin:70px auto;
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+
+}
+
+.stat-box{
+
+background:#0f4c81;
+color:white;
+padding:35px;
+text-align:center;
+border-radius:20px;
+transition:.3s;
+
+}
+
+.stat-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+.stat-box h2{
+
+font-size:42px;
+
+}
+
+/*================ DETAILS =================*/
 
 .details{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:20px;
+
+width:90%;
+max-width:1200px;
+margin:80px auto;
+
 }
 
-.detail-box{
-    background:#eef6ff;
-    padding:20px;
-    border-radius:10px;
+.details-grid{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+
 }
 
-.detail-box h3{
-    color:#003b73;
-    margin-bottom:8px;
+.detail-card{
+
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+
 }
 
+.detail-card h3{
 
-/* Branches */
+color:#0f4c81;
+margin-bottom:12px;
 
-.branch-list{
-    line-height:2;
-    padding-left:20px;
 }
 
+/*================ SERVICES =================*/
 
-/* Salary Table */
+.services{
 
-table{
-    width:100%;
-    border-collapse:collapse;
+width:90%;
+max-width:1200px;
+margin:80px auto;
+
 }
 
-table th{
-    background:#003b73;
-    color:white;
-    padding:15px;
+.service-grid{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+
 }
 
-table td{
-    padding:15px;
-    border:1px solid #ddd;
-    text-align:center;
+.service-card{
+
+background:white;
+padding:35px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+transition:.3s;
+
 }
 
-table tr:nth-child(even){
-    background:#eef6ff;
+.service-card:hover{
+
+background:#0f4c81;
+color:white;
+transform:translateY(-10px);
+
 }
 
+.service-card i{
 
-/* Interview Button */
+font-size:45px;
+color:#2196f3;
+margin-bottom:18px;
 
-.interview{
-    text-align:center;
-    margin:30px 0;
 }
 
-.interview a{
-    display:inline-block;
-    background:#0074cc;
-    color:white;
-    text-decoration:none;
-    padding:15px 30px;
-    border-radius:30px;
-    font-size:18px;
-    font-weight:bold;
+.service-card:hover i{
+
+color:white;
+
+}/*================ BRANCHES =================*/
+
+.branches{
+
+width:90%;
+max-width:1200px;
+margin:80px auto;
+
 }
 
-.interview a:hover{
-    background:#003b73;
+.branch-grid{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+
 }
 
+.branch-grid div{
 
-/* Back Button */
+background:white;
+padding:25px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+font-size:18px;
+font-weight:bold;
+transition:.3s;
 
-.back{
-    text-align:center;
-    margin-bottom:40px;
 }
 
-.back a{
-    text-decoration:none;
-    color:#003b73;
-    font-weight:bold;
+.branch-grid div:hover{
+
+background:#0f4c81;
+color:white;
+transform:translateY(-8px);
+
 }
 
+/*================ SALARY =================*/
 
-/* Mobile */
+.salary{
 
-@media(max-width:700px){
+width:90%;
+max-width:1200px;
+margin:80px auto;
 
-    .details{
-        grid-template-columns:1fr;
-    }
+}
 
-    .owner{
-        flex-direction:column;
-        text-align:center;
-    }
+.salary table{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.salary th{
+
+background:#0f4c81;
+color:white;
+padding:18px;
+
+}
+
+.salary td{
+
+padding:16px;
+border:1px solid #ddd;
+text-align:center;
+
+}
+
+.salary tr:nth-child(even){
+
+background:#eef6ff;
+
+}
+
+/*================ PROCESS =================*/
+
+.process{
+
+width:90%;
+max-width:1200px;
+margin:80px auto;
+
+}
+
+.process-grid{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+
+}
+
+.process-card{
+
+background:white;
+padding:35px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+
+}
+
+.process-card:hover{
+
+background:#0f4c81;
+color:white;
+transform:translateY(-10px);
+
+}
+
+.process-card h3{
+
+font-size:42px;
+margin-bottom:15px;
+
+}
+
+/*================ MOBILE =================*/
+
+@media(max-width:768px){
+
+.about-container,
+.founder-card{
+
+flex-direction:column;
+
+}
+
+.stats,
+.details-grid,
+.service-grid,
+.branch-grid,
+.process-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.salary table{
+
+display:block;
+overflow-x:auto;
+
+}
+
+}/*================ FOOTER =================*/
+
+footer{
+
+background:linear-gradient(135deg,#0f172a,#1e293b);
+
+color:white;
+
+padding:80px 8% 30px;
+
+margin-top:80px;
+
+}
+
+.footer-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:40px;
+
+}
+
+.footer-container h2,
+.footer-container h3{
+
+margin-bottom:20px;
+
+}
+
+.footer-container p{
+
+color:#cbd5e1;
+
+line-height:30px;
+
+margin-bottom:12px;
+
+}
+
+.footer-container a{
+
+display:block;
+
+color:#cbd5e1;
+
+text-decoration:none;
+
+margin-bottom:12px;
+
+transition:.3s;
+
+}
+
+.footer-container a:hover{
+
+color:#60a5fa;
+
+padding-left:8px;
+
+}
+
+.copy{
+
+border-top:1px solid rgba(255,255,255,.2);
+
+margin-top:35px;
+
+padding-top:25px;
+
+text-align:center;
+
+color:#cbd5e1;
+
+}
+
+/*================ SCROLL BUTTON =================*/
+
+#topBtn{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+width:55px;
+
+height:55px;
+
+background:#0f4c81;
+
+color:white;
+
+border:none;
+
+border-radius:50%;
+
+font-size:22px;
+
+cursor:pointer;
+
+display:none;
+
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+transition:.3s;
+
+}
+
+#topBtn:hover{
+
+background:#2196f3;
+
+transform:translateY(-5px);
 
 }
 
@@ -221,175 +654,343 @@ table tr:nth-child(even){
 
 </head>
 
-
 <body>
 
-
-<!-- Header -->
+<!--================ HEADER =================-->
 
 <header>
 
-<h1>Google</h1>
+<div class="logo">
 
-<p>Company Information & Career Guide</p>
-
-</header>
-
-
-<div class="container">
-
-
-<!-- Company Logo -->
-
-<div class="company-header">
-
-<img src="https://cdn.simpleicons.org/google">
-
-<h2>Google</h2>
-
-<p>
-Technology • Search • Cloud • Artificial Intelligence
-</p>
-
-</div>
-
-
-<!-- History -->
-
-<div class="info-card">
-
-<h2>📖 Company History</h2>
-
-<p>
-
-Google was founded by Larry Page and Sergey Brin
-while they were students at Stanford University.
-
-Google started as a search engine project and
-later became one of the world's leading technology companies.
-
-Today Google provides many products and services
-including Search, YouTube, Android, Google Maps,
-Google Cloud and Artificial Intelligence technologies.
-
-</p>
-
-</div>
-
-
-<!-- Owner / Founder -->
-
-<div class="info-card">
-
-<h2>👤 Founder / Owner</h2>
-
-<div class="owner">
-
-<img src="https://cdn.simpleicons.org/google">
+<img src="image/logo.jpeg">
 
 <div>
 
-<h3>Sergey Brin</h3>
+<h2>NEXT STEP</h2>
+
+<p>Your Journey to a Successful Career</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.php">Home</a></li>
+
+<li><a href="career.php">Career</a></li>
+
+<li><a href="company.php">Company</a></li>
+
+<li><a href="resume-builder.php">Resume Builder</a></li>
+
+<li><a href="interview.php">Interview Practice</a></li>
+
+<li><a href="feedback.php">Feedback</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!--================ HERO =================-->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="https://cdn.simpleicons.org/google">
+
+<h1>Google <span>Company</span></h1>
 
 <p>
-Co-founder of Google
+
+Explore Google company profile, history,
+salary packages, hiring process,
+career opportunities and interview questions.
+
+</p>
+
+<a href="#about" class="hero-btn">
+
+Explore Company
+
+</a>
+
+<a href="interview_questions.php" class="hero-btn">
+
+Interview Questions
+
+</a>
+
+</div>
+
+</section><!--================ ABOUT GOOGLE =================-->
+
+<section id="about">
+
+<h2 class="section-title">About Google</h2>
+
+<div class="about-container">
+
+<div class="about-image">
+
+<img src="https://cdn.simpleicons.org/google">
+
+</div>
+
+<div class="about-content">
+
+<h3>Google LLC</h3>
+
+<p>
+
+Google was founded by Larry Page and Sergey Brin in 1998
+while they were Ph.D. students at Stanford University.
+
+Today Google is one of the world's largest technology
+companies providing Search, YouTube, Android,
+Google Cloud, Gmail, Maps and Artificial Intelligence services.
+
 </p>
 
 <p>
-Google was founded by Larry Page and Sergey Brin.
+
+Google focuses on innovation, cloud computing,
+machine learning, cybersecurity and digital products
+used by billions of people every day.
+
 </p>
 
 </div>
 
 </div>
 
+</section>
+
+<!--================ FOUNDER =================-->
+
+<section class="founder">
+
+<h2 class="section-title">Founder</h2>
+
+<div class="founder-card">
+
+<img src="image/larry-sergey.jpg">
+
+<div>
+
+<h3>Larry Page & Sergey Brin</h3>
+
+<h4>Founders of Google</h4>
+
+<p>
+
+Google was founded on September 4, 1998.
+Their mission was to organize the world's information
+and make it universally accessible and useful.
+
+</p>
+
 </div>
 
+</div>
 
-<!-- Company Details -->
+</section>
 
-<div class="info-card">
+<!--================ COMPANY STATS =================-->
 
-<h2>🏢 Company Details</h2>
+<section class="stats">
 
-<div class="details">
+<div class="stat-box">
 
+<h2>1998</h2>
 
-<div class="detail-box">
+<p>Founded</p>
 
-<h3>📅 Established Date</h3>
+</div>
+
+<div class="stat-box">
+
+<h2>180K+</h2>
+
+<p>Employees</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>190+</h2>
+
+<p>Countries</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>8B+</h2>
+
+<p>Daily Searches</p>
+
+</div>
+
+</section>
+
+<!--================ COMPANY DETAILS =================-->
+
+<section class="details">
+
+<h2 class="section-title">
+
+Company Details
+
+</h2>
+
+<div class="details-grid">
+
+<div class="detail-card">
+
+<h3> Established</h3>
 
 <p>September 4, 1998</p>
 
 </div>
 
+<div class="detail-card">
 
-<div class="detail-box">
+<h3> CEO</h3>
 
-<h3>👥 Employees</h3>
-
-<p>More than 180,000 employees worldwide</p>
+<p>Sundar Pichai</p>
 
 </div>
 
+<div class="detail-card">
 
-<div class="detail-box">
-
-<h3>🌍 Headquarters</h3>
+<h3> Headquarters</h3>
 
 <p>Mountain View, California, USA</p>
 
 </div>
 
+<div class="detail-card">
 
-<div class="detail-box">
+<h3>Industry</h3>
 
-<h3>🌐 Website Users</h3>
-
-<p>Billions of users worldwide use Google services.</p>
-
-</div>
-
+<p>Technology & Artificial Intelligence</p>
 
 </div>
 
-</div>
+<div class="detail-card">
 
+<h3>Employees</h3>
 
-<!-- Branches -->
-
-<div class="info-card">
-
-<h2>🌍 Branches & Offices</h2>
-
-<p>Google has offices and locations around the world.</p>
-
-<ul class="branch-list">
-
-<li>🇺🇸 United States</li>
-
-<li>🇮🇳 India</li>
-
-<li>🇬🇧 United Kingdom</li>
-
-<li>🇨🇦 Canada</li>
-
-<li>🇦🇺 Australia</li>
-
-<li>🇸🇬 Singapore</li>
-
-<li>🇯🇵 Japan</li>
-
-</ul>
+<p>180,000+ Worldwide</p>
 
 </div>
 
+<div class="detail-card">
 
-<!-- Job Profiles & Salary -->
+<h3> Website</h3>
 
-<div class="info-card">
+<p>www.google.com</p>
 
-<h2>💰 Job Profile Wise Salary</h2>
+</div>
+
+</div>
+
+</section>
+
+<!--================ SERVICES =================-->
+
+<section class="services">
+
+<h2 class="section-title">
+
+Google Products & Services
+
+</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+
+<i class="fab fa-google"></i>
+
+<h3>Google Search</h3>
+
+</div>
+
+<div class="service-card">
+
+<i class="fab fa-youtube"></i>
+
+<h3>YouTube</h3>
+
+</div>
+
+<div class="service-card">
+
+<i class="fab fa-android"></i>
+
+<h3>Android</h3>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-cloud"></i>
+
+<h3>Google Cloud</h3>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-map-marker-alt"></i>
+
+<h3>Google Maps</h3>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-robot"></i>
+
+<h3>Artificial Intelligence</h3>
+
+</div>
+
+</div>
+
+</section><!--================ GLOBAL BRANCHES =================-->
+
+<section class="branches">
+
+<h2 class="section-title">Global Offices</h2>
+
+<div class="branch-grid">
+
+<div>🇺🇸 United States</div>
+<div>🇮🇳 India</div>
+<div>🇬🇧 United Kingdom</div>
+<div>🇨🇦 Canada</div>
+<div>🇦🇺 Australia</div>
+<div>🇸🇬 Singapore</div>
+<div>🇯🇵 Japan</div>
+<div>🇩🇪 Germany</div>
+
+</div>
+
+</section>
+
+<!--================ SALARY =================-->
+
+<section class="salary">
+
+<h2 class="section-title">Job Profile Wise Salary</h2>
 
 <table>
 
@@ -403,17 +1004,15 @@ Google was founded by Larry Page and Sergey Brin.
 
 </tr>
 
-
 <tr>
 
-<td>Software Developer</td>
+<td>Software Engineer</td>
 
 <td>0-2 Years</td>
 
-<td>₹8 - ₹15 LPA</td>
+<td>₹8 - ₹16 LPA</td>
 
 </tr>
-
 
 <tr>
 
@@ -421,43 +1020,19 @@ Google was founded by Larry Page and Sergey Brin.
 
 <td>0-2 Years</td>
 
-<td>₹5 - ₹10 LPA</td>
+<td>₹6 - ₹12 LPA</td>
 
 </tr>
-
 
 <tr>
 
 <td>Data Analyst</td>
 
-<td>0-2 Years</td>
-
-<td>₹6 - ₹12 LPA</td>
-
-</tr>
-
-
-<tr>
-
-<td>Software Tester</td>
-
-<td>0-2 Years</td>
-
-<td>₹5 - ₹10 LPA</td>
-
-</tr>
-
-
-<tr>
-
-<td>Data Scientist</td>
-
 <td>1-3 Years</td>
 
-<td>₹10 - ₹20 LPA</td>
+<td>₹8 - ₹15 LPA</td>
 
 </tr>
-
 
 <tr>
 
@@ -465,55 +1040,246 @@ Google was founded by Larry Page and Sergey Brin.
 
 <td>1-3 Years</td>
 
-<td>₹8 - ₹18 LPA</td>
+<td>₹10 - ₹22 LPA</td>
 
 </tr>
 
+<tr>
+
+<td>AI / ML Engineer</td>
+
+<td>2-5 Years</td>
+
+<td>₹18 - ₹40 LPA</td>
+
+</tr>
+
+<tr>
+
+<td>Cyber Security Engineer</td>
+
+<td>2-5 Years</td>
+
+<td>₹12 - ₹30 LPA</td>
+
+</tr>
 
 </table>
 
+</section>
+
+<!--================ HIRING PROCESS =================-->
+
+<section class="process">
+
+<h2 class="section-title">
+
+Google Hiring Process
+
+</h2>
+
+<div class="process-grid">
+
+<div class="process-card">
+
+<h3>01</h3>
+
+<p>Online Application</p>
+
 </div>
 
+<div class="process-card">
 
-<!-- Interview Questions -->
+<h3>02</h3>
 
-<div class="info-card interview">
+<p>Resume Screening</p>
 
-<h2>🎯 Frequently Asked Interview Questions</h2>
+</div>
+
+<div class="process-card">
+
+<h3>03</h3>
+
+<p>Online Assessment</p>
+
+</div>
+
+<div class="process-card">
+
+<h3>04</h3>
+
+<p>Technical Interview</p>
+
+</div>
+
+<div class="process-card">
+
+<h3>05</h3>
+
+<p>HR Interview</p>
+
+</div>
+
+<div class="process-card">
+
+<h3>06</h3>
+
+<p>Offer Letter</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ INTERVIEW =================-->
+
+<section class="interview">
+
+<h2 class="section-title">
+
+Top 50 Interview Questions
+
+</h2>
 
 <p>
 
-Prepare for your interview with our
-Top 50 Important Interview Questions.
+Prepare for Google interviews with our
+Top 50 Frequently Asked Interview Questions.
 
 </p>
 
 <br>
 
-<a href="interview_questions.php">
+<a href="interview_questions.php" class="hero-btn">
 
-View Top 50 Interview Questions →
-
-</a>
-
-</div>
-
-
-<!-- Back -->
-
-<div class="back">
-
-<a href="companies.php">
-
-← Back to All Companies
+View Interview Questions
 
 </a>
 
+</section>
+
+<!--================ BACK BUTTON =================-->
+
+<div style="text-align:center;margin:60px 0;">
+
+<a href="company.php" class="hero-btn">
+
+← Back to Companies
+
+</a>
+
+</div><!--================ FOOTER =================-->
+
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>
+
+Your Journey to a Successful Career Starts Here.
+
+</p>
+
 </div>
 
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="index.php">Home</a>
+
+<a href="career.php">Career</a>
+
+<a href="company.php">Company</a>
+
+<a href="resume-builder.php">Resume Builder</a>
+
+<a href="interview.php">Interview Practice</a>
+
+<a href="feedback.php">Feedback</a>
 
 </div>
 
+<div>
+
+<h3>Contact</h3>
+
+<p><i class="fa-solid fa-envelope"></i> nextstep@gmail.com</p>
+
+<p><i class="fa-solid fa-location-dot"></i> Kolhapur, Maharashtra</p>
+
+<p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+
+<a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+
+<a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+
+<a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+
+</div>
+
+</div>
+
+<div class="copy">
+
+Copyright © 2026 NEXT STEP | All Rights Reserved.
+
+</div>
+
+</footer>
+
+<!--================ SCROLL TO TOP =================-->
+
+<button id="topBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script>
+
+let topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.documentElement.scrollTop>250){
+
+topBtn.style.display="block";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+}
+
+topBtn.onclick=function(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+}
+
+</script>
 
 </body>
 

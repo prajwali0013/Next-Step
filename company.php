@@ -1,885 +1,16 @@
-<html>
-    <style>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Top Hiring Companies | Next Step</title>
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-/*==================================
-        RESET
-==================================*/
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#f5f7fb;
-    padding-top:90px;
-}
-
-/*==================================
-        HEADER
-==================================*/
-
-header{
-
-    position:fixed;
-
-    top:0;
-
-    left:0;
-
-    width:100%;
-
-    height:90px;
-
-    background:#000;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:0 70px;
-
-    z-index:9999;
-
-    box-shadow:0 8px 25px rgba(0,0,0,.45);
-
-    border-bottom:1px solid rgba(255,255,255,.08);
-
-}
-
-/*==================================
-        LOGO
-==================================*/
-
-.logo{
-
-    display:flex;
-
-    align-items:center;
-
-}
-
-.logo img{
-
-    width:70px;
-
-    height:70px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    margin-right:15px;
-
-    border:3px solid #3b82f6;
-
-    transition:.4s;
-
-}
-
-.logo img:hover{
-
-    transform:rotate(10deg) scale(1.08);
-
-}
-
-.logo-text h2{
-
-    color:#fff;
-
-    font-size:30px;
-
-    letter-spacing:1px;
-
-    margin-bottom:5px;
-
-}
-
-.logo-text p{
-
-    color:#cbd5e1;
-
-    font-size:14px;
-
-}
-
-/*==================================
-        NAVIGATION
-==================================*/
-
-nav ul{
-
-    display:flex;
-
-    list-style:none;
-
-}
-
-nav ul li{
-
-    margin-left:35px;
-
-}
-
-nav ul li a{
-
-    position:relative;
-
-    color:#fff;
-
-    text-decoration:none;
-
-    font-size:16px;
-
-    font-weight:600;
-
-    transition:.3s;
-
-    padding-bottom:6px;
-
-}
-
-nav ul li a::after{
-
-    content:"";
-
-    position:absolute;
-
-    left:0;
-
-    bottom:-4px;
-
-    width:0;
-
-    height:2px;
-
-    background:#3b82f6;
-
-    transition:.3s;
-
-}
-
-nav ul li a:hover{
-
-    color:#3b82f6;
-
-}
-
-nav ul li a:hover::after{
-
-    width:100%;
-
-}
-
-/* Active Page */
-
-nav ul li a.active{
-
-    color:#3b82f6;
-
-}
-
-nav ul li a.active::after{
-
-    width:100%;
-
-}
-
-/*==================================
-        RESPONSIVE
-==================================*/
-
-@media(max-width:992px){
-
-header{
-
-padding:0 30px;
-
-}
-
-.logo img{
-
-width:60px;
-
-height:60px;
-
-}
-
-.logo-text h2{
-
-font-size:25px;
-
-}
-
-nav ul li{
-
-margin-left:18px;
-
-}
-
-nav ul li a{
-
-font-size:15px;
-
-}
-
-}
-
-@media(max-width:768px){
-
-header{
-
-position:relative;
-
-height:auto;
-
-flex-direction:column;
-
-padding:20px;
-
-}
-
-body{
-
-padding-top:0;
-
-}
-
-.logo{
-
-margin-bottom:20px;
-
-}
-
-nav ul{
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-}
-
-nav ul li{
-
-margin:10px;
-
-}
-
-}
-/*==================================
-            FOOTER
-==================================*/
-
-footer{
-
-    background:#000;
-
-    color:#fff;
-
-    padding:70px 8% 30px;
-
-    border-top:1px solid rgba(255,255,255,.08);
-
-}
-
-/* Footer Grid */
-
-.footer-container{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-    gap:45px;
-
-    margin-bottom:35px;
-
-}
-
-/* Heading */
-
-.footer-box h2{
-
-    color:#3b82f6;
-
-    font-size:30px;
-
-    margin-bottom:18px;
-
-}
-
-.footer-box h3{
-
-    color:#ffffff;
-
-    font-size:22px;
-
-    margin-bottom:18px;
-
-    position:relative;
-
-    display:inline-block;
-
-}
-
-/* Blue Line */
-
-.footer-box h3::after{
-
-    content:"";
-
-    position:absolute;
-
-    left:0;
-
-    bottom:-8px;
-
-    width:45px;
-
-    height:3px;
-
-    background:#3b82f6;
-
-    border-radius:5px;
-
-}
-
-/* Paragraph */
-
-.footer-box p{
-
-    color:#cbd5e1;
-
-    line-height:28px;
-
-    margin-bottom:12px;
-
-}
-
-/* Links */
-
-.footer-box a{
-
-    display:block;
-
-    text-decoration:none;
-
-    color:#cbd5e1;
-
-    margin-bottom:12px;
-
-    transition:.35s;
-
-}
-
-.footer-box a:hover{
-
-    color:#3b82f6;
-
-    transform:translateX(8px);
-
-}
-
-/* Divider */
-
-footer hr{
-
-    border:none;
-
-    height:1px;
-
-    background:rgba(255,255,255,.12);
-
-    margin:30px 0;
-
-}
-
-/* Copyright */
-
-.copy{
-
-    text-align:center;
-
-    color:#94a3b8;
-
-    font-size:15px;
-
-    letter-spacing:.5px;
-
-}
-
-/* Responsive */
-
-@media(max-width:768px){
-
-.footer-container{
-
-text-align:center;
-
-}
-
-.footer-box h3::after{
-
-left:50%;
-
-transform:translateX(-50%);
-
-}
-
-.footer-box a:hover{
-
-transform:none;
-
-}
-
-}
-/*==================================
-        SMOOTH SCROLL
-==================================*/
-
-html{
-    scroll-behavior:smooth;
-}
-
-/*==================================
-        BODY
-==================================*/
-
-body{
-    margin:0;
-    padding-top:90px;
-    background:#f5f7fb;
-    color:#222;
-    overflow-x:hidden;
-}
-
-/*==================================
-        IMAGE
-==================================*/
-
-img{
-    max-width:100%;
-    display:block;
-}
-
-/*==================================
-        LINK ANIMATION
-==================================*/
-
-a{
-    transition:all .3s ease;
-}
-
-/*==================================
-        BUTTON
-==================================*/
-
-button,
-.btn{
-
-    background:#3b82f6;
-
-    color:#fff;
-
-    border:none;
-
-    outline:none;
-
-    padding:12px 28px;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    font-size:16px;
-
-    transition:.3s;
-
-}
-
-button:hover,
-.btn:hover{
-
-    background:#2563eb;
-
-    transform:translateY(-3px);
-
-}
-
-/*==================================
-        SECTION
-==================================*/
-
-section{
-
-    padding:70px 8%;
-
-}
-
-/*==================================
-        SELECTION
-==================================*/
-
-::selection{
-
-    background:#3b82f6;
-
-    color:#fff;
-
-}
-
-/*==================================
-        SCROLLBAR
-==================================*/
-
-::-webkit-scrollbar{
-
-    width:10px;
-
-}
-
-::-webkit-scrollbar-track{
-
-    background:#111;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-    background:#3b82f6;
-
-    border-radius:20px;
-
-}
-
-::-webkit-scrollbar-thumb:hover{
-
-    background:#2563eb;
-
-}
-
-/*==================================
-        TABLET
-==================================*/
-
-@media(max-width:992px){
-
-header{
-
-padding:0 25px;
-
-}
-
-.logo img{
-
-width:60px;
-
-height:60px;
-
-}
-
-.logo-text h2{
-
-font-size:24px;
-
-}
-
-.logo-text p{
-
-font-size:13px;
-
-}
-
-nav ul{
-
-gap:15px;
-
-}
-
-nav ul li{
-
-margin-left:0;
-
-}
-
-nav ul li a{
-
-font-size:15px;
-
-}
-
-}
-
-/*==================================
-        MOBILE
-==================================*/
-
-@media(max-width:768px){
-
-header{
-
-position:relative;
-
-height:auto;
-
-padding:20px;
-
-flex-direction:column;
-
-}
-
-body{
-
-padding-top:0;
-
-}
-
-.logo{
-
-flex-direction:column;
-
-text-align:center;
-
-margin-bottom:20px;
-
-}
-
-.logo img{
-
-margin:0 0 10px;
-
-}
-
-nav{
-
-width:100%;
-
-}
-
-nav ul{
-
-flex-direction:column;
-
-align-items:center;
-
-}
-
-nav ul li{
-
-margin:10px 0;
-
-}
-
-.footer-container{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-.footer-box h3::after{
-
-left:50%;
-
-transform:translateX(-50%);
-
-}
-
-}
-
-/*==================================
-        SMALL MOBILE
-==================================*/
-
-@media(max-width:480px){
-
-.logo-text h2{
-
-font-size:22px;
-
-}
-
-.logo-text p{
-
-font-size:12px;
-
-}
-
-nav ul li a{
-
-font-size:14px;
-
-}
-
-.copy{
-
-font-size:13px;
-
-}
-
-}
-
-
-
-/*==================================
-        MAIN CONTAINER
-==================================*/
-
-.container{
-
-    width:90%;
-
-    max-width:1200px;
-
-    margin:40px auto;
-
-    padding:40px;
-
-    background:#ffffff;
-
-    border-radius:15px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-}
-
-/* Section */
-
-.section{
-
-    margin-bottom:60px;
-
-}
-
-.section h1{
-
-    font-size:40px;
-
-    color:#111827;
-
-    margin-bottom:20px;
-
-}
-
-.section h2{
-
-    font-size:30px;
-
-    color:#1e3a8a;
-
-    margin-bottom:15px;
-
-}
-
-.section p{
-
-    color:#4b5563;
-
-    font-size:17px;
-
-    line-height:30px;
-
-}
-
-/* Cards */
-
-.card-container{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-    gap:30px;
-
-    margin-top:30px;
-
-}
-.card{
-
-    background:#fff;
-
-    border-radius:15px;
-
-    padding:25px;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-
-    transition:.3s;
-
-}
-
-.card:hover{
-
-    transform:translateY(-8px);
-
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
-
-}
-
-.card img{
-
-    width:100%;
-
-    height:180px;
-
-    object-fit:cover;
-
-    border-radius:10px;
-
-    margin-bottom:15px;
-
-}
-
-.card h3{
-
-    color:#111827;
-
-    margin-bottom:10px;
-
-}
-
-.card p{
-
-    color:#6b7280;
-
-    line-height:26px;
-
-}
-
-/* Responsive */
-
-@media(max-width:768px){
-
-    .container{
-
-        width:95%;
-
-        padding:20px;
-
-    }
-
-    .section h1{
-
-        font-size:30px;
-
-    }
-
-    .section h2{
-
-        font-size:24px;
-
-    }
-
-}
 <style>
 
 *{
@@ -1437,22 +568,39 @@ justify-content:center;
 
 }
 
+}
+
 </style>
+
+</head>
+
 <body>
 
+<!-- NAVBAR -->
 
-<header>
+<nav>
 
-    <div class="logo">
+<div class="logo">
+    <img src="image/logo.jpeg" alt="Logo" style="height:45px;vertical-align:middle;">
+    <span>Next</span>Step
+</div>
 
-        <img src="image/logo.jpeg" alt="NEXT STEP Logo">
+<ul>
+<li><a href="index.php">Home</a></li>
+<li><a href="career.php">Career</a></li>
+<li><a href="company.php">Company</a></li>
+<li><a href="resume-builder.php">Resume Builder</a></li>
+<li><a href="interview.php">Interview Practice</a></li>
+<li><a href="feedback.php">Feedback</a></li>
+</ul>
 
-        <div class="logo-text">
-            <h2>NEXT STEP</h2>
-            <p>Your Journey to a Successful Career</p>
-        </div>
+<a href="login.php" class="login-btn">
+    <i class="fa-solid fa-user"></i> Login
+</a>
 
-    </div>
+</nav>
+
+
 <!-- HERO -->
 
 <section class="hero">
@@ -1632,87 +780,89 @@ Explore Companies
             <a href="accenture.php">View Details</a>
 
         </div>
-</div>
-    <nav>
 
-        <ul>
+    </div>
 
-            <li><a href="index.php" class="active">Home</a></li>
-
-            <li><a href="career.php">Career</a></li>
-
-            <li><a href="company.php">Company</a></li>
-
-            <li><a href="resume-builder.php">Resume Builder</a></li>
-
-            <li><a href="interview.php">Interview Practice</a></li>
-
-            <li><a href="feedback.php">Feedback</a></li>
-
-        </ul>
-
-    </nav>
-
-</header>
-
-
-
-
+</section<!-- ================= FOOTER ================= -->
 
 <footer>
 
     <div class="footer-container">
 
-        <!-- About -->
         <div class="footer-box">
 
-            <h2>NEXT STEP</h2>
+            <h2>NextStep</h2>
 
             <p>
-                Your Journey to a Successful Career Starts Here.
-                Empowering students with career guidance, resume building,
-                interview preparation, and company insights.
+                AI Career Guidance & Placement Preparation Portal helping
+                students choose the best career path and achieve success.
             </p>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
 
         </div>
 
-        <!-- Quick Links -->
         <div class="footer-box">
 
             <h3>Quick Links</h3>
 
             <a href="index.php">Home</a>
+
             <a href="career.php">Career</a>
-            <a href="company.php">Company</a>
-            <a href="resume-builder.php">Resume Builder</a>
-            <a href="interview.php">Interview Practice</a>
-            <a href="feedback.php">Feedback</a>
+
+            <a href="company.php">Companies</a>
+
+            <a href="contact.php">Contact</a>
 
         </div>
 
-        <!-- Contact -->
         <div class="footer-box">
 
-            <h3>Contact Us</h3>
+            <h3>Top Companies</h3>
 
-            <p>Email : nextstep@gmail.com</p>
+            <a href="google.php">Google</a>
 
-            <p>Kolhapur, Maharashtra</p>
+            <a href="microsoft.php">Microsoft</a>
 
-            <p>India</p>
+            <a href="amazon.php">Amazon</a>
+
+            <a href="tcs.php">TCS</a>
+
+            <a href="infosys.php">Infosys</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-envelope"></i> nextstep@gmail.com</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 7499794215</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> India</p>
 
         </div>
 
     </div>
 
-    <hr>
+    <div class="copyright">
 
-    <p class="copy">
+        © 2026 NextStep | All Rights Reserved
 
-        © 2026 NEXT STEP | All Rights Reserved.
-
-    </p>
+    </div>
 
 </footer>
+
 </body>
 </html>

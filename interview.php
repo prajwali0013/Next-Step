@@ -63,35 +63,113 @@ display:inline-block;
 .card a:hover{
 background:#1257d6;
 }
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:90px;
+    background:#000;      /* Black Header */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 70px;
+    z-index:9999;
+    box-shadow:0 5px 20px rgba(0,0,0,.5);
+}
+
+/* Body ला Header खाली Space */
+body{
+    padding-top:90px;
+}
+
+/* Logo */
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:80px;          /* Logo मोठा */
+    height:80px;
+    border-radius:50%;
+    margin-right:15px;
+}
+
+.logo h2{
+    color:#fff;
+    font-size:34px;
+    font-weight:bold;
+}
+
+.logo p{
+    color:#d1d5db;
+    font-size:15px;
+}
+
+/* Navigation */
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;          /* White Menu */
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+    padding-bottom:5px;
+}
+
+nav ul li a:hover{
+    color:#3b82f6;
+    border-bottom:2px solid #3b82f6;
+}
 </style>
 <body>
+
 <header>
 
-    <div class="logo">
+<div class="logo">
 
-        <img src="image/logo.jpeg" alt="NEXT STEP Logo">
+<img src="image/logo.jpeg" height=90% width=50%>
 
-        <div>
-            <h2>NEXT STEP</h2>
-            <p>Your Journey to a Successful Career</p>
-        </div>
+<div>
 
-    </div>
+<h2>NEXT STEP</h2>
 
-    <nav>
+<p>Your Journey to a Successful Career</p>
 
-        <ul>
+</div>
 
-            <li><a href="index.php" class="active">Home</a></li>
-            <li><a href="career.php">Career</a></li>
-            <li><a href="company.php">Company</a></li>
-            <li><a href="resume-builder.php">Resume Builder</a></li>
-            <li><a href="interview.php">Interview Practice</a></li>
-            <li><a href="feedback.php">Feedback</a></li>
+</div>
 
-        </ul>
+<nav style="text-decoration:none;">
 
-    </nav>
+<ul>
+
+<li><a href="index.php">Home</a></li>
+
+<li><a href="career.php">Career</a></li>
+
+<li><a href="company.php">Company</a></li>
+
+<li><a href="resume-builder.php">Resume Builder</a></li>
+
+<li><a href="interview.php">Interview Practice</a></li>
+
+<li><a href="feedback.php">Feedback</a></li>
+
+</ul>
+
+</nav>
 
 </header>
 <section class="interview">
@@ -166,51 +244,5 @@ Evaluate your communication skills and interview performance.
 </div>
 
 </section>
-<footer>
-
-    <div class="footer-container">
-
-        <div class="footer-box">
-
-            <h2>NEXT STEP</h2>
-
-            <p>
-                Your Journey to a Successful Career Starts Here.
-            </p>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Quick Links</h3>
-
-            <a href="index.php">Home</a>
-            <a href="career.php">Career</a>
-            <a href="company.php">Company</a>
-            <a href="resume-builder.php">Resume Builder</a>
-            <a href="interview.php">Interview Practice</a>
-            <a href="feedback.php">Feedback</a>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Contact</h3>
-
-            <p>Email : nextstep@gmail.com</p>
-
-            <p>Kolhapur, Maharashtra</p>
-
-        </div>
-
-    </div>
-
-    <hr>
-
-    <p class="copy">
-        Copyright © 2026 NEXT STEP | All Rights Reserved.
-    </p>
-
-</footer>
 </body>
 </html>
