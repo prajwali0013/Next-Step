@@ -58,29 +58,122 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
+    margin:0;
+    padding-top:90px;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#2563eb,#4f46e5,#06b6d4);
+    background-size:400% 400%;
+    min-height:100vh;
+}
+header{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:90px;
+
+background:#000;
+
 display:flex;
-justify-content:center;
+
+justify-content:space-between;
+
 align-items:center;
-min-height:100vh;
-background:linear-gradient(135deg,#2563eb,#4f46e5,#06b6d4);
-background-size:400% 400%;
-animation:bg 8s ease infinite;
+
+padding:0 70px;
+
+z-index:9999;
+
+box-shadow:0 5px 20px rgba(0,0,0,.6);
+
 }
 
-@keyframes bg{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
+.logo{
+
+display:flex;
+
+align-items:center;
+
 }
+
+.logo img{
+
+width:80px;
+
+height:80px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-right:15px;
+
+border:3px solid #2563eb;
+
+}
+
+.logo h2{
+
+font-size:34px;
+
+color:white;
+
+}
+
+.logo p{
+
+font-size:15px;
+
+color:#d1d5db;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+}
+
+nav ul li{
+
+margin-left:35px;
+
+}
+
+nav ul li a{
+
+color:white;
+
+text-decoration:none;
+
+font-size:17px;
+
+transition:.4s;
+
+}
+
+nav ul li a:hover{
+
+color:#3b82f6;
+
+}
+
 
 .container{
-width:1000px;
-height:650px;
-display:flex;
-background:#fff;
-border-radius:20px;
-overflow:hidden;
-box-shadow:0 20px 40px rgba(0,0,0,.25);
+    width:1000px;
+    margin:60px auto;
+    display:flex;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
 }
 
 .left{
@@ -328,58 +421,78 @@ nav ul li a.active::after{
         FOOTER
 ==============================*/
 
+
 footer{
-    background:#000;
-    color:#fff;
-    padding:70px 8% 25px;
+
+background:#000;
+
+color:#fff;
+
+padding:70px 8% 30px;
+margin-top:60ox;
+
+
 }
 
 .footer-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:40px;
-    margin-bottom:30px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:40px;
+
 }
 
-.footer-box h2{
-    color:#3b82f6;
-    margin-bottom:15px;
+.footer-container h2,
+.footer-container h3{
+
+margin-bottom:20px;
+
 }
 
-.footer-box h3{
-    color:#fff;
-    margin-bottom:15px;
+.footer-container p{
+
+line-height:28px;
+
+color:#cbd5e1;
+
 }
 
-.footer-box p{
-    color:#cbd5e1;
-    line-height:28px;
+.footer-container a{
+
+display:block;
+
+text-decoration:none;
+
+color:#cbd5e1;
+
+margin-bottom:12px;
+
+transition:.3s;
+
 }
 
-.footer-box a{
-    display:block;
-    color:#cbd5e1;
-    text-decoration:none;
-    margin-bottom:10px;
-    transition:.3s;
-}
+.footer-container a:hover{
 
-.footer-box a:hover{
-    color:#3b82f6;
-    padding-left:8px;
-}
+color:#3b82f6;
 
-footer hr{
-    border:none;
-    height:1px;
-    background:#333;
-    margin:25px 0;
+padding-left:8px;
+
 }
 
 .copy{
-    text-align:center;
-    color:#94a3b8;
-    font-size:15px;
+
+border-top:1px solid #333;
+
+margin-top:30px;
+
+padding-top:20px;
+
+text-align:center;
+
+color:#cbd5e1;
+
 }
 
 /*==============================
@@ -432,15 +545,19 @@ footer hr{
 </style>
 
 </head>
+<body>
 <header>
 
     <div class="logo">
 
-        <img src="image/logo.jpeg" alt="NEXT STEP Logo">
+        <img src="image/logo.jpeg" alt="Logo">
 
         <div>
+
             <h2>NEXT STEP</h2>
+
             <p>Your Journey to a Successful Career</p>
+
         </div>
 
     </div>
@@ -449,11 +566,16 @@ footer hr{
 
         <ul>
 
-            <li><a href="index.php" class="active">Home</a></li>
+            <li><a href="index.php">Home</a></li>
+
             <li><a href="career.php">Career</a></li>
+
             <li><a href="company.php">Company</a></li>
+
             <li><a href="resume-builder.php">Resume Builder</a></li>
+
             <li><a href="interview.php">Interview Practice</a></li>
+
             <li><a href="feedback.php">Feedback</a></li>
 
         </ul>
@@ -461,7 +583,7 @@ footer hr{
     </nav>
 
 </header>
-<body>
+
 
 <div class="container">
 
@@ -598,52 +720,63 @@ Login
 </div>
 
 </div>
+
+
 <footer>
 
-    <div class="footer-container">
+<div class="footer-container">
 
-        <div class="footer-box">
+<div>
 
-            <h2>NEXT STEP</h2>
+<h2>NEXT STEP</h2>
 
-            <p>
-                Your Journey to a Successful Career Starts Here.
-            </p>
+<p>
 
-        </div>
+Your Journey to a Successful Career Starts Here.
 
-        <div class="footer-box">
+</p>
 
-            <h3>Quick Links</h3>
+</div>
 
-            <a href="index.php">Home</a>
-            <a href="career.php">Career</a>
-            <a href="company.php">Company</a>
-            <a href="resume-builder.php">Resume Builder</a>
-            <a href="interview.php">Interview Practice</a>
-            <a href="feedback.php">Feedback</a>
+<div>
 
-        </div>
+<h3>Quick Links</h3>
 
-        <div class="footer-box">
+<a href="index.php">Home</a>
 
-            <h3>Contact</h3>
+<a href="career.php">Career</a>
 
-            <p>Email : nextstep@gmail.com</p>
+<a href="company.php">Company</a>
 
-            <p>Kolhapur, Maharashtra</p>
+<a href="resume-builder.php">Resume Builder</a>
 
-        </div>
+<a href="interview.php">Interview Practice</a>
 
-    </div>
+<a href="feedback.php">Feedback</a>
 
-    <hr>
+</div>
 
-    <p class="copy">
-        Copyright © 2026 NEXT STEP | All Rights Reserved.
-    </p>
+<div>
+
+<h3>Contact</h3>
+
+<p>Email : nextstep@gmail.com</p>
+
+<p>Kolhapur, Maharashtra</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copy">
+
+Copyright © 2026 NEXT STEP | All Rights Reserved.
+
+</p>
 
 </footer>
 </body>
 
-</html> register.php
+</html>
