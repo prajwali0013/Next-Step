@@ -20,27 +20,45 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#F8FAFC;
+background:#eef4ff;
+padding-top:90px;
 }
 
 header{
+position:fixed;
+top:0;
+left:0;
 width:100%;
-height:85px;
-background:#0F172A;
+height:90px;
+background:#000;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:0 70px;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+z-index:9999;
 }
 
 .logo{
-font-size:32px;
-font-weight:bold;
-color:#fff;
+display:flex;
+align-items:center;
 }
 
-.logo span{
-color:#2563EB;
+.logo img{
+width:75px;
+height:75px;
+border-radius:50%;
+margin-right:15px;
+}
+
+.logo h2{
+color:#fff;
+font-size:32px;
+}
+
+.logo p{
+color:#d1d5db;
+font-size:14px;
 }
 
 nav ul{
@@ -49,18 +67,21 @@ list-style:none;
 }
 
 nav ul li{
-margin-left:30px;
+margin-left:35px;
 }
 
 nav ul li a{
 text-decoration:none;
 color:#fff;
 font-size:17px;
+font-weight:bold;
 transition:.3s;
+padding-bottom:5px;
 }
 
 nav ul li a:hover{
-color:#60A5FA;
+color:#3b82f6;
+border-bottom:2px solid #3b82f6;
 }
 
 .login{
@@ -120,17 +141,67 @@ width:45%;
 .right img{
 width:100%;
 }
+footer{
+background:linear-gradient(135deg,#131C2F,#1E3A8A,#0F172A);
+color:#fff;
+padding:60px 8% 25px;
+margin-top:60px;
+}
 
+.footer-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+}
+
+.footer-container h2,
+.footer-container h3{
+margin-bottom:20px;
+}
+
+.footer-container p{
+color:#d1d5db;
+line-height:28px;
+}
+
+.footer-container a{
+display:block;
+text-decoration:none;
+color:#d1d5db;
+margin-bottom:10px;
+transition:.3s;
+}
+
+.footer-container a:hover{
+color:#60a5fa;
+padding-left:8px;
+}
+
+footer hr{
+margin:30px 0 20px;
+border:1px solid rgba(255,255,255,.15);
+}
+
+.copy{
+text-align:center;
+color:#cbd5e1;
+font-size:15px;
+}
 </style>
-
-</head>
-
-<body>
-
 <header>
 
 <div class="logo">
-<span>N</span> NextStep
+
+<img src="image/logo.jpeg" alt="Logo">
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>Your Journey to a Successful Career</p>
+
+</div>
+
 </div>
 
 <nav>
@@ -138,18 +209,23 @@ width:100%;
 <ul>
 
 <li><a href="index.php">Home</a></li>
+
 <li><a href="career.php">Career</a></li>
-<li><a href="#">Courses</a></li>
-<li><a href="#">Roadmap</a></li>
-<li><a href="#">Contact</a></li>
+
+<li><a href="company.php">Company</a></li>
+
+<li><a href="resume-builder.php">Resume Builder</a></li>
+
+<li><a href="interview.php">Interview Practice</a></li>
+
+<li><a href="feedback.php">Feedback</a></li>
 
 </ul>
 
 </nav>
 
-<a href="#" class="login">Login</a>
-
 </header>
+
 
 <section class="hero">
 
@@ -180,7 +256,7 @@ Start Learning
 
 <div class="right">
 
-<img src="images/ai-banner.png" alt="Artificial Intelligence">
+<img src="image/Artificial Intelligence.jpg" alt="Artificial Intelligence"  style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
 
 </div>
 
@@ -297,7 +373,7 @@ Deep Learning and Neural Networks to automate tasks and make better decisions.
 
 <div class="about-image">
 
-<img src="images/ai-about.png" alt="Artificial Intelligence">
+<img src="image/ai.webp" alt="Artificial Intelligence"  style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
 
 </div>
 
@@ -675,248 +751,10 @@ font-weight:bold;
 border-radius:10px;
 }
 
-footer{
-background:#0F172A;
-color:#fff;
-text-align:center;
-padding:30px;
-margin-top:80px;
-}
-/*==============================
-        HEADER
-==============================*/
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
 
-body{
-    padding-top:90px;
-}
-
-/* Header */
-
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:90px;
-    background:#000;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 70px;
-    z-index:1000;
-    box-shadow:0 5px 20px rgba(0,0,0,.5);
-}
-
-/* Logo */
-
-.logo{
-    display:flex;
-    align-items:center;
-}
-
-.logo img{
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    margin-right:15px;
-    object-fit:cover;
-    border:2px solid #3b82f6;
-}
-
-.logo h2{
-    color:#fff;
-    font-size:30px;
-    margin-bottom:5px;
-}
-
-.logo p{
-    color:#d1d5db;
-    font-size:14px;
-}
-
-/* Navigation */
-
-nav ul{
-    display:flex;
-    list-style:none;
-}
-
-nav ul li{
-    margin-left:35px;
-}
-
-nav ul li a{
-    color:#fff;
-    text-decoration:none;
-    font-size:16px;
-    font-weight:600;
-    position:relative;
-    transition:.3s;
-}
-
-nav ul li a::after{
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:-6px;
-    width:0;
-    height:2px;
-    background:#3b82f6;
-    transition:.3s;
-}
-
-nav ul li a:hover,
-nav ul li a.active{
-    color:#3b82f6;
-}
-
-nav ul li a:hover::after,
-nav ul li a.active::after{
-    width:100%;
-}
-
-/*==============================
-        FOOTER
-==============================*/
-
-footer{
-    background:#000;
-    color:#fff;
-    padding:70px 8% 25px;
-}
-
-.footer-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:40px;
-    margin-bottom:30px;
-}
-
-.footer-box h2{
-    color:#3b82f6;
-    margin-bottom:15px;
-}
-
-.footer-box h3{
-    color:#fff;
-    margin-bottom:15px;
-}
-
-.footer-box p{
-    color:#cbd5e1;
-    line-height:28px;
-}
-
-.footer-box a{
-    display:block;
-    color:#cbd5e1;
-    text-decoration:none;
-    margin-bottom:10px;
-    transition:.3s;
-}
-
-.footer-box a:hover{
-    color:#3b82f6;
-    padding-left:8px;
-}
-
-footer hr{
-    border:none;
-    height:1px;
-    background:#333;
-    margin:25px 0;
-}
-
-.copy{
-    text-align:center;
-    color:#94a3b8;
-    font-size:15px;
-}
-
-/*==============================
-        RESPONSIVE
-==============================*/
-
-@media(max-width:992px){
-
-    header{
-        padding:0 25px;
-    }
-
-    nav ul li{
-        margin-left:18px;
-    }
-
-    .logo h2{
-        font-size:25px;
-    }
-
-}
-
-@media(max-width:768px){
-
-    header{
-        position:relative;
-        height:auto;
-        flex-direction:column;
-        padding:20px;
-    }
-
-    body{
-        padding-top:0;
-    }
-
-    nav ul{
-        flex-wrap:wrap;
-        justify-content:center;
-        margin-top:20px;
-    }
-
-    nav ul li{
-        margin:10px;
-    }
-
-    .footer-container{
-        text-align:center;
-    }
-}
 </style>
-<header>
 
-    <div class="logo">
-
-        <img src="image/logo.jpeg" alt="NEXT STEP Logo">
-
-        <div>
-            <h2>NEXT STEP</h2>
-            <p>Your Journey to a Successful Career</p>
-        </div>
-
-    </div>
-
-    <nav>
-
-        <ul>
-
-            <li><a href="index.php" class="active">Home</a></li>
-            <li><a href="career.php">Career</a></li>
-            <li><a href="company.php">Company</a></li>
-            <li><a href="resume-builder.php">Resume Builder</a></li>
-            <li><a href="interview.php">Interview Practice</a></li>
-            <li><a href="feedback.php">Feedback</a></li>
-
-        </ul>
-
-    </nav>
-
-</header>
 <section class="tools">
 
 <h2>AI Tools & Technologies</h2>
@@ -1011,53 +849,55 @@ footer hr{
 <a href="#">Start Learning</a>
 
 </section>
+
 <footer>
 
-    <div class="footer-container">
+<div class="footer-container">
 
-        <div class="footer-box">
+<div>
 
-            <h2>NEXT STEP</h2>
+<h2>NEXT STEP</h2>
 
-            <p>
-                Your Journey to a Successful Career Starts Here.
-            </p>
+<p>Your Journey to a Successful Career Starts Here.</p>
 
-        </div>
+</div>
 
-        <div class="footer-box">
+<div>
 
-            <h3>Quick Links</h3>
+<h3>Quick Links</h3>
 
-            <a href="index.php">Home</a>
-            <a href="career.php">Career</a>
-            <a href="company.php">Company</a>
-            <a href="resume-builder.php">Resume Builder</a>
-            <a href="interview.php">Interview Practice</a>
-            <a href="feedback.php">Feedback</a>
+<a href="index.php">Home</a>
 
-        </div>
+<a href="career.php">Career</a>
 
-        <div class="footer-box">
+<a href="company.php">Company</a>
 
-            <h3>Contact</h3>
+<a href="resume-builder.php">Resume Builder</a>
 
-            <p>Email : nextstep@gmail.com</p>
+<a href="interview.php">Interview Practice</a>
 
-            <p>Kolhapur, Maharashtra</p>
+<a href="feedback.php">Feedback</a>
 
-        </div>
+</div>
 
-    </div>
+<div>
 
-    <hr>
+<h3>Contact</h3>
 
-    <p class="copy">
-        Copyright © 2026 NEXT STEP | All Rights Reserved.
-    </p>
+<p>Email : nextstep@gmail.com</p>
+
+<p>Kolhapur, Maharashtra</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copy">
+Copyright © 2026 NEXT STEP | All Rights Reserved.
+</p>
 
 </footer>
-
-
 </body>
 </html>

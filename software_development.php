@@ -20,27 +20,45 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#F8FAFC;
+background:#eef4ff;
+padding-top:90px;
 }
 
 header{
+position:fixed;
+top:0;
+left:0;
 width:100%;
-height:85px;
-background:#0F172A;
+height:90px;
+background:#000;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:0 70px;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+z-index:9999;
 }
 
 .logo{
-font-size:32px;
-font-weight:bold;
-color:#fff;
+display:flex;
+align-items:center;
 }
 
-.logo span{
-color:#2563EB;
+.logo img{
+width:75px;
+height:75px;
+border-radius:50%;
+margin-right:15px;
+}
+
+.logo h2{
+color:#fff;
+font-size:32px;
+}
+
+.logo p{
+color:#d1d5db;
+font-size:14px;
 }
 
 nav ul{
@@ -49,19 +67,22 @@ list-style:none;
 }
 
 nav ul li{
-margin-left:30px;
+margin-left:35px;
 }
 
 nav ul li a{
 text-decoration:none;
 color:#fff;
 font-size:17px;
+font-weight:bold;
+transition:.3s;
+padding-bottom:5px;
 }
 
 nav ul li a:hover{
-color:#60A5FA;
+color:#3b82f6;
+border-bottom:2px solid #3b82f6;
 }
-
 .login{
 background:#2563EB;
 padding:12px 30px;
@@ -119,7 +140,52 @@ width:45%;
 .right img{
 width:100%;
 }
+footer{
+background:linear-gradient(135deg,#131C2F,#1E3A8A,#0F172A);
+color:#fff;
+padding:60px 8% 25px;
+margin-top:60px;
+}
 
+.footer-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+}
+
+.footer-container h2,
+.footer-container h3{
+margin-bottom:20px;
+}
+
+.footer-container p{
+color:#d1d5db;
+line-height:28px;
+}
+
+.footer-container a{
+display:block;
+text-decoration:none;
+color:#d1d5db;
+margin-bottom:10px;
+transition:.3s;
+}
+
+.footer-container a:hover{
+color:#60a5fa;
+padding-left:8px;
+}
+
+footer hr{
+margin:30px 0 20px;
+border:1px solid rgba(255,255,255,.15);
+}
+
+.copy{
+text-align:center;
+color:#cbd5e1;
+font-size:15px;
+}
 </style>
 
 </head>
@@ -129,9 +195,19 @@ width:100%;
 <header>
 
 <div class="logo">
-    <img src="image/logo.jpeg" alt="Logo" style="height:45px; vertical-align:middle;">
-    <span>Next</span>Step
+
+<img src="image/logo.jpeg" alt="Logo">
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>Your Journey to a Successful Career</p>
+
 </div>
+
+</div>
+
 <nav>
 
 <ul>
@@ -140,17 +216,17 @@ width:100%;
 
 <li><a href="career.php">Career</a></li>
 
-<li><a href="#">Courses</a></li>
+<li><a href="company.php">Company</a></li>
 
-<li><a href="#">Roadmap</a></li>
+<li><a href="resume-builder.php">Resume Builder</a></li>
 
-<li><a href="#">Contact</a></li>
+<li><a href="interview.php">Interview Practice</a></li>
+
+<li><a href="feedback.php">Feedback</a></li>
 
 </ul>
 
 </nav>
-
-<a href="#" class="login">Login</a>
 
 </header>
 
@@ -173,17 +249,14 @@ prepare for placements and get hired by top IT companies.
 
 </p>
 
-<a href="#" class="btn">
-
-Start Learning
-
-</a>
 
 </div>
 
 <div class="right">
 
-<img src="image/Software Development.jpg">
+
+<img src="image/Software Development.jpg"
+     style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
 
 </div>
 
@@ -300,7 +373,7 @@ global job opportunities and continuous learning.
 </div>
 
 <div class="right">
-    <img src="image/software development 2.png" alt="Software Development" style="width:100%;display:block;">
+    <img src="image/software development 2.png" alt="Software Development"  style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
 </div>
 
 </section>
@@ -677,13 +750,6 @@ font-weight:bold;
 
 /*========== FOOTER ==========*/
 
-footer{
-background:#0F172A;
-color:#fff;
-text-align:center;
-padding:30px;
-margin-top:80px;
-}
 
 </style>
 
@@ -784,7 +850,51 @@ margin-top:80px;
 
 <footer>
 
-<p>© 2026 NextStep | Software Development | All Rights Reserved.</p>
+<div class="footer-container">
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>Your Journey to a Successful Career Starts Here.</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="index.php">Home</a>
+
+<a href="career.php">Career</a>
+
+<a href="company.php">Company</a>
+
+<a href="resume-builder.php">Resume Builder</a>
+
+<a href="interview.php">Interview Practice</a>
+
+<a href="feedback.php">Feedback</a>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email : nextstep@gmail.com</p>
+
+<p>Kolhapur, Maharashtra</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copy">
+Copyright © 2026 NEXT STEP | All Rights Reserved.
+</p>
 
 </footer>
 

@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cognizant Company | NEXT STEP</title>
+<title>Wipro Company | NEXT STEP</title>
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -86,8 +86,8 @@ padding-bottom:5px;
 }
 
 nav ul li a:hover{
-color:#0056b3;
-border-bottom:2px solid #0056b3;
+color:#6f42c1;
+border-bottom:2px solid #6f42c1;
 }
 
 /*================ HERO =================*/
@@ -95,9 +95,9 @@ border-bottom:2px solid #0056b3;
 .hero{
 height:90vh;
 background:
-linear-gradient(rgba(0,70,140,.75),
-rgba(0,70,140,.75)),
-url("image/Cognizant company.jpeg");
+linear-gradient(rgba(40,20,90,.75),
+rgba(40,20,90,.75)),
+url("image/wipro company.jpg");
 
 background-size:cover;
 background-position:center;
@@ -129,7 +129,7 @@ margin-bottom:15px;
 }
 
 .hero h1 span{
-color:#66c2ff;
+color:#b983ff;
 }
 
 .hero p{
@@ -141,7 +141,7 @@ margin-bottom:35px;
 .hero-btn{
 display:inline-block;
 padding:16px 42px;
-background:#0056b3;
+background:#6f42c1;
 color:white;
 text-decoration:none;
 border-radius:40px;
@@ -152,7 +152,7 @@ margin:10px;
 }
 
 .hero-btn:hover{
-background:#003d80;
+background:#4b2d87;
 transform:translateY(-5px);
 }
 
@@ -160,7 +160,7 @@ transform:translateY(-5px);
 
 .section-title{
 font-size:40px;
-color:#0056b3;
+color:#4b2d87;
 text-align:center;
 margin:80px 0 40px;
 }
@@ -192,7 +192,7 @@ box-shadow:0 10px 25px rgba(0,0,0,.1);
 
 .about-content h3{
 font-size:35px;
-color:#0056b3;
+color:#4b2d87;
 margin-bottom:20px;
 }
 
@@ -229,11 +229,11 @@ object-fit:cover;
 
 .founder-card h3{
 font-size:34px;
-color:#0056b3;
+color:#4b2d87;
 }
 
 .founder-card h4{
-color:#0077cc;
+color:#6f42c1;
 margin:12px 0;
 }
 
@@ -252,7 +252,7 @@ gap:25px;
 }
 
 .stat-box{
-background:#0056b3;
+background:#4b2d87;
 color:white;
 padding:35px;
 text-align:center;
@@ -295,7 +295,7 @@ transform:translateY(-8px);
 }
 
 .detail-card h3{
-color:#0056b3;
+color:#4b2d87;
 margin-bottom:12px;
 }
 
@@ -323,14 +323,14 @@ transition:.3s;
 }
 
 .service-card:hover{
-background:#0056b3;
+background:#4b2d87;
 color:white;
 transform:translateY(-10px);
 }
 
 .service-card i{
 font-size:45px;
-color:#0056b3;
+color:#6f42c1;
 margin-bottom:18px;
 }
 
@@ -364,7 +364,7 @@ transition:.3s;
 }
 
 .branch-grid div:hover{
-background:#0056b3;
+background:#4b2d87;
 color:white;
 transform:translateY(-8px);
 }
@@ -385,7 +385,7 @@ box-shadow:0 10px 25px rgba(0,0,0,.1);
 }
 
 .salary th{
-background:#0056b3;
+background:#4b2d87;
 color:white;
 padding:18px;
 }
@@ -397,7 +397,7 @@ text-align:center;
 }
 
 .salary tr:nth-child(even){
-background:#eef6ff;
+background:#f3efff;
 }
 /*================ INTERVIEW =================*/
 
@@ -448,7 +448,7 @@ transition:.3s;
 }
 
 .footer-container a:hover{
-color:#66c2ff;
+color:#b983ff;
 padding-left:8px;
 }
 
@@ -468,7 +468,7 @@ bottom:25px;
 right:25px;
 width:55px;
 height:55px;
-background:#0056b3;
+background:#4b2d87;
 color:white;
 border:none;
 border-radius:50%;
@@ -480,7 +480,7 @@ transition:.3s;
 }
 
 #topBtn:hover{
-background:#0077cc;
+background:#6f42c1;
 transform:translateY(-5px);
 }
 
@@ -573,11 +573,11 @@ font-size:42px;
 
 
 
-<h1>Cognizant <span>Company</span></h1>
+<h1>Wipro <span>Company</span></h1>
 
 <p>
 
-Explore Cognizant company profile,
+Explore Wipro company profile,
 history, salary packages,
 hiring process, career opportunities
 and interview questions.
@@ -599,38 +599,40 @@ Interview Questions
 </div>
 
 </section>
-<!--================ ABOUT COGNIZANT =================-->
+<!--================ ABOUT WIPRO =================-->
 
 <section id="about">
 
-<h2 class="section-title">About Cognizant</h2>
+<h2 class="section-title">About Wipro</h2>
 
 <div class="about-container">
 
 <div class="about-image">
 
-<img src="image/cognizant.webp" alt="Cognizant Logo">
+<img src="image/Wipro company logo.webp" alt="Wipro Logo">
 
 </div>
 
 <div class="about-content">
 
-<h3>Cognizant Technology Solutions</h3>
+<h3>Wipro Limited</h3>
 
 <p>
 
-Cognizant is an American multinational Information Technology
-services and consulting company. It provides Digital Engineering,
-Cloud Computing, Artificial Intelligence, Data Analytics,
-Cyber Security and IT Consulting solutions.
+Wipro Limited is an Indian multinational
+information technology, consulting and business
+process services company. It was founded on
+29 December 1945 by Mohamed Hasham Premji.
 
 </p>
 
 <p>
 
-Founded in 1994, Cognizant serves clients across more than
-40 countries and is one of the world's leading IT services
-companies helping businesses accelerate digital transformation.
+Today Wipro provides Software Development,
+Cloud Computing, Artificial Intelligence,
+Cyber Security, Data Analytics and Digital
+Transformation services to clients in over
+65 countries.
 
 </p>
 
@@ -648,20 +650,21 @@ companies helping businesses accelerate digital transformation.
 
 <div class="founder-card">
 
-<img src="image/Kumar Mahadeva.jpeg" alt="Kumar Mahadeva">
+<img src="image/azim premji.jpg" alt="Azim Premji">
 
 <div>
 
-<h3>Kumar Mahadeva</h3>
+<h3>Azim Premji</h3>
 
-<h4>Founder & Former CEO</h4>
+<h4>Chairman Emeritus of Wipro</h4>
 
 <p>
 
-Kumar Mahadeva played an important role in building
-Cognizant into a leading global technology and consulting
-company. Today Cognizant is recognized for innovation,
-digital transformation and IT services worldwide.
+Azim Premji transformed Wipro into one of
+India's leading global IT companies.
+His leadership, innovation and vision helped
+Wipro become a trusted technology partner
+across the world.
 
 </p>
 
@@ -677,7 +680,7 @@ digital transformation and IT services worldwide.
 
 <div class="stat-box">
 
-<h2>1994</h2>
+<h2>1945</h2>
 
 <p>Founded</p>
 
@@ -685,7 +688,7 @@ digital transformation and IT services worldwide.
 
 <div class="stat-box">
 
-<h2>336K+</h2>
+<h2>230K+</h2>
 
 <p>Employees</p>
 
@@ -693,7 +696,7 @@ digital transformation and IT services worldwide.
 
 <div class="stat-box">
 
-<h2>40+</h2>
+<h2>65+</h2>
 
 <p>Countries</p>
 
@@ -701,7 +704,7 @@ digital transformation and IT services worldwide.
 
 <div class="stat-box">
 
-<h2>2000+</h2>
+<h2>1400+</h2>
 
 <p>Clients</p>
 
@@ -725,7 +728,7 @@ Company Details
 
 <h3>Established</h3>
 
-<p>26 January 1994</p>
+<p>29 December 1945</p>
 
 </div>
 
@@ -733,7 +736,7 @@ Company Details
 
 <h3>CEO</h3>
 
-<p>Ravi Kumar S</p>
+<p>Srini Pallia</p>
 
 </div>
 
@@ -741,7 +744,7 @@ Company Details
 
 <h3>Headquarters</h3>
 
-<p>Teaneck, New Jersey, USA</p>
+<p>Bengaluru, Karnataka, India</p>
 
 </div>
 
@@ -757,15 +760,15 @@ Company Details
 
 <h3>Employees</h3>
 
-<p>336,000+ Worldwide</p>
+<p>230,000+ Worldwide</p>
 
 </div>
 
 <div class="detail-card">
 
-<h3>Website</h3>
+<h3> Website</h3>
 
-<p>www.cognizant.com</p>
+<p>www.wipro.com</p>
 
 </div>
 
@@ -777,7 +780,7 @@ Company Details
 <section class="services">
 
 <h2 class="section-title">
-Cognizant Products & Services
+Wipro Products & Services
 </h2>
 
 <div class="service-grid">
@@ -858,49 +861,49 @@ Job Profile Wise Salary
 <tr>
 <td>Software Engineer</td>
 <td>0-2 Years</td>
-<td>₹4 - ₹8 LPA</td>
+<td>₹3.5 - ₹7 LPA</td>
 </tr>
 
 <tr>
 <td>Web Developer</td>
 <td>0-2 Years</td>
-<td>₹4 - ₹7 LPA</td>
+<td>₹3.5 - ₹6 LPA</td>
 </tr>
 
 <tr>
 <td>Java Developer</td>
 <td>1-3 Years</td>
-<td>₹5 - ₹9 LPA</td>
+<td>₹4 - ₹8 LPA</td>
 </tr>
 
 <tr>
 <td>Python Developer</td>
 <td>1-3 Years</td>
-<td>₹5 - ₹10 LPA</td>
+<td>₹4 - ₹8 LPA</td>
 </tr>
 
 <tr>
 <td>Data Analyst</td>
 <td>1-3 Years</td>
-<td>₹5 - ₹9 LPA</td>
+<td>₹4 - ₹7 LPA</td>
 </tr>
 
 <tr>
 <td>Cloud Engineer</td>
 <td>2-5 Years</td>
-<td>₹8 - ₹15 LPA</td>
+<td>₹7 - ₹14 LPA</td>
 </tr>
 
 <tr>
 <td>AI / ML Engineer</td>
 <td>2-5 Years</td>
-<td>₹10 - ₹18 LPA</td>
+<td>₹8 - ₹16 LPA</td>
 </tr>
 
 <tr>
 <td>Cyber Security Engineer</td>
 <td>2-5 Years</td>
-<td>₹8 - ₹16 LPA</td>
+<td>₹7 - ₹15 LPA</td>
 </tr>
 
 </table>
@@ -915,22 +918,18 @@ Job Profile Wise Salary
 Top 50 Interview Questions
 </h2>
 
-<p style="font-size:20px;line-height:35px;">
+<p>
 
-Prepare for Cognizant interviews with our
+Prepare for Wipro interviews with our
 Top 50 Frequently Asked Interview Questions.
 
 </p>
 
 <br>
 
-<div style="text-align:center;">
-
 <a href="interview_questions.php" class="hero-btn">
 View Interview Questions
 </a>
-
-</div>
 
 </section>
 
@@ -993,9 +992,7 @@ Copyright © 2026 NEXT STEP | All Rights Reserved.
 <!--================ SCROLL TO TOP =================-->
 
 <button id="topBtn">
-
 <i class="fa-solid fa-arrow-up"></i>
-
 </button>
 
 <script>
@@ -1030,5 +1027,4 @@ behavior:"smooth"
 </script>
 
 </body>
-
 </html>

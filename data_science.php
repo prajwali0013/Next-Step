@@ -172,7 +172,7 @@ Learn Data Science, Python, Statistics, Machine Learning and Data Visualization 
 
 <div class="right">
 
-<img src="image/Data science.jpg" alt="Data Science">
+<img src="image/Data science.jpg" alt="Data Science"   style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
 
 </div>
 

@@ -97,7 +97,8 @@ height:90vh;
 background:
 linear-gradient(rgba(10,35,80,.75),
 rgba(10,35,80,.75)),
-url("image/google-bg.jpg");
+url("image/google company.webp");
+url("image/google company.webp");
 
 background-size:cover;
 background-position:center;
@@ -702,7 +703,7 @@ transform:translateY(-5px);
 
 <div class="hero-content">
 
-<img src="https://cdn.simpleicons.org/google">
+<img src="image/G symbol.avif">
 
 <h1>Google <span>Company</span></h1>
 
@@ -738,7 +739,7 @@ Interview Questions
 
 <div class="about-image">
 
-<img src="https://cdn.simpleicons.org/google">
+<img src="image/google logo.png">
 
 </div>
 
@@ -779,7 +780,7 @@ used by billions of people every day.
 
 <div class="founder-card">
 
-<img src="image/larry-sergey.jpg">
+<img src="image/google larry page.jpeg">
 
 <div>
 
@@ -1068,69 +1069,7 @@ Google Products & Services
 
 </section>
 
-<!--================ HIRING PROCESS =================-->
 
-<section class="process">
-
-<h2 class="section-title">
-
-Google Hiring Process
-
-</h2>
-
-<div class="process-grid">
-
-<div class="process-card">
-
-<h3>01</h3>
-
-<p>Online Application</p>
-
-</div>
-
-<div class="process-card">
-
-<h3>02</h3>
-
-<p>Resume Screening</p>
-
-</div>
-
-<div class="process-card">
-
-<h3>03</h3>
-
-<p>Online Assessment</p>
-
-</div>
-
-<div class="process-card">
-
-<h3>04</h3>
-
-<p>Technical Interview</p>
-
-</div>
-
-<div class="process-card">
-
-<h3>05</h3>
-
-<p>HR Interview</p>
-
-</div>
-
-<div class="process-card">
-
-<h3>06</h3>
-
-<p>Offer Letter</p>
-
-</div>
-
-</div>
-
-</section>
 
 <!--================ INTERVIEW =================-->
 
@@ -1197,11 +1136,6 @@ Your Journey to a Successful Career Starts Here.
 
 <a href="company.php">Company</a>
 
-<a href="resume-builder.php">Resume Builder</a>
-
-<a href="interview.php">Interview Practice</a>
-
-<a href="feedback.php">Feedback</a>
 
 </div>
 
@@ -1213,23 +1147,11 @@ Your Journey to a Successful Career Starts Here.
 
 <p><i class="fa-solid fa-location-dot"></i> Kolhapur, Maharashtra</p>
 
-<p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+<p><i class="fa-solid fa-phone"></i> +91 7499794215</p>
 
 </div>
 
-<div>
 
-<h3>Follow Us</h3>
-
-<a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-
-<a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-
-<a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
-
-<a href="#"><i class="fab fa-youtube"></i> YouTube</a>
-
-</div>
 
 </div>
 

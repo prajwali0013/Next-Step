@@ -740,15 +740,7 @@ eye.classList.add("fa-eye");
         <ul>
 
             <li><a href="index.php">Home</a></li>
-
-            <li><a href="career.php">Career</a></li>
-
-            <li><a href="company.php">Company</a></li>
-
-            <li><a href="resume-builder.php">Resume Builder</a></li>
-
-            <li><a href="interview.php">Interview Practice</a></li>
-
+            <li><a href="register.php">Register</a></li>
             <li><a href="feedback.php">Feedback</a></li>
 
         </ul>

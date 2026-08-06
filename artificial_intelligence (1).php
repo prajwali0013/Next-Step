@@ -6,10 +6,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mechanical Engineering | NextStep</title>
+<title>Artificial Intelligence | NextStep</title>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 <style>
 
@@ -21,45 +20,27 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#eef4ff;
-padding-top:90px;
+background:#F8FAFC;
 }
 
 header{
-position:fixed;
-top:0;
-left:0;
 width:100%;
-height:90px;
-background:#000;
+height:85px;
+background:#0F172A;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:0 70px;
-box-shadow:0 5px 20px rgba(0,0,0,.4);
-z-index:9999;
 }
 
 .logo{
-display:flex;
-align-items:center;
-}
-
-.logo img{
-width:75px;
-height:75px;
-border-radius:50%;
-margin-right:15px;
-}
-
-.logo h2{
-color:#fff;
 font-size:32px;
+font-weight:bold;
+color:#fff;
 }
 
-.logo p{
-color:#d1d5db;
-font-size:14px;
+.logo span{
+color:#2563EB;
 }
 
 nav ul{
@@ -68,29 +49,26 @@ list-style:none;
 }
 
 nav ul li{
-margin-left:35px;
+margin-left:30px;
 }
 
 nav ul li a{
 text-decoration:none;
 color:#fff;
 font-size:17px;
-font-weight:bold;
 transition:.3s;
-padding-bottom:5px;
 }
 
 nav ul li a:hover{
-color:#3b82f6;
-border-bottom:2px solid #3b82f6;
+color:#60A5FA;
 }
 
 .login{
 background:#2563EB;
 padding:12px 28px;
 border-radius:8px;
-color:#fff;
 text-decoration:none;
+color:#fff;
 }
 
 .hero{
@@ -141,8 +119,6 @@ width:45%;
 
 .right img{
 width:100%;
-max-height:450px;
-object-fit:contain;
 }
 
 </style>
@@ -154,17 +130,8 @@ object-fit:contain;
 <header>
 
 <div class="logo">
-
-<img src="image/logo.jpeg" alt="Logo">
-
-<div>
-
-<h2>NEXT STEP</h2>
-
-<p>Your Journey to a Successful Career</p>
-
-</div>
-
+    <img src="image/logo.jpeg" alt="Logo" style="height:45px; vertical-align:middle;">
+    <span>Next</span>Step
 </div>
 
 <nav>
@@ -181,11 +148,13 @@ object-fit:contain;
 
 <li><a href="interview.php">Interview Practice</a></li>
 
-<li><a href="feedback.php">Feedback</a></li>
+<li><a href="feedback.php">Feedback</a></li>li>
 
 </ul>
 
 </nav>
+
+<a href="#" class="login">Login</a>
 
 </header>
 
@@ -195,16 +164,16 @@ object-fit:contain;
 
 <h1>
 
-Become a
+Become an
 
-<span>Mechanical Engineer</span>
+<span>AI Engineer</span>
 
 </h1>
 
 <p>
 
-Learn Mechanical Engineering, CAD Design, Manufacturing, Thermodynamics,
-Automobile Engineering and Industrial Automation to build a successful engineering career.
+Learn Artificial Intelligence, Machine Learning, Deep Learning,
+Python and build intelligent applications for the future.
 
 </p>
 
@@ -218,11 +187,11 @@ Start Learning
 
 <div class="right">
 
-<img src="image/Mechanical Engineering.jpg" alt="Mechanical Engineering"  style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
+<img src="image/Artificial Intelligence.jpg" alt="Artificial Intelligence">
 
 </div>
 
-</section><!-- ================= ABOUT MECHANICAL ENGINEERING & SKILLS ================= -->
+</section><!-- ================= ABOUT AI & SKILLS ================= -->
 
 <style>
 
@@ -282,8 +251,8 @@ gap:25px;
 .skill-card{
 background:#fff;
 padding:30px;
-text-align:center;
 border-radius:18px;
+text-align:center;
 box-shadow:0 8px 20px rgba(0,0,0,.08);
 transition:.3s;
 }
@@ -299,7 +268,7 @@ margin-bottom:15px;
 }
 
 .skill-card h3{
-margin-bottom:12px;
+margin-bottom:15px;
 color:#0F172A;
 }
 
@@ -314,17 +283,20 @@ line-height:26px;
 
 <div class="about-text">
 
-<h2>What is Mechanical Engineering?</h2>
+<h2>What is Artificial Intelligence?</h2>
 
 <p>
 
-Mechanical Engineering is one of the oldest and broadest engineering fields. It focuses on designing, manufacturing, testing and maintaining machines, vehicles, industrial equipment and mechanical systems.
+Artificial Intelligence (AI) is a technology that enables computers
+to think, learn and solve problems like humans. AI is used in chatbots,
+self-driving cars, healthcare, finance, robotics and many other fields.
 
 </p>
 
 <p>
 
-Mechanical Engineers work in industries such as automobile, aerospace, energy, robotics, manufacturing, production and industrial automation.
+AI Engineers develop smart applications using Python, Machine Learning,
+Deep Learning and Neural Networks to automate tasks and make better decisions.
 
 </p>
 
@@ -332,7 +304,7 @@ Mechanical Engineers work in industries such as automobile, aerospace, energy, r
 
 <div class="about-image">
 
-<img src="image/mechanical.jpg" alt="Mechanical Engineering"   style="width:100%; border-radius:25px; padding:8px; background:#fff; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
+<img src="image/ai.webp" alt="Artificial Intelligence">
 
 </div>
 
@@ -345,32 +317,32 @@ Mechanical Engineers work in industries such as automobile, aerospace, energy, r
 <div class="skill-grid">
 
 <div class="skill-card">
-<i class="fa-solid fa-compass-drafting"></i>
-<h3>AutoCAD</h3>
-<p>Create accurate 2D and 3D engineering drawings and designs.</p>
+<i class="fa-brands fa-python"></i>
+<h3>Python</h3>
+<p>Most popular programming language for AI and Machine Learning.</p>
 </div>
 
 <div class="skill-card">
-<i class="fa-solid fa-cube"></i>
-<h3>SolidWorks</h3>
-<p>Design mechanical parts, assemblies and 3D product models.</p>
+<i class="fa-solid fa-brain"></i>
+<h3>Machine Learning</h3>
+<p>Build intelligent models that learn from data.</p>
 </div>
 
 <div class="skill-card">
-<i class="fa-solid fa-gears"></i>
-<h3>Manufacturing</h3>
-<p>Learn production processes, machining and quality control.</p>
+<i class="fa-solid fa-microchip"></i>
+<h3>Deep Learning</h3>
+<p>Create neural networks for image, speech and text processing.</p>
 </div>
 
 <div class="skill-card">
-<i class="fa-solid fa-industry"></i>
-<h3>Industrial Automation</h3>
-<p>Understand PLC, robotics and modern automated manufacturing systems.</p>
+<i class="fa-solid fa-database"></i>
+<h3>Data Analysis</h3>
+<p>Collect, clean and analyze data for AI applications.</p>
 </div>
 
 </div>
 
-</section><!-- ================= ROADMAP | SALARY | TOP COMPANIES ================= -->
+</section><!-- ================= AI ROADMAP | SALARY | TOP COMPANIES ================= -->
 
 <style>
 
@@ -479,43 +451,38 @@ font-size:20px;
 font-weight:bold;
 color:#0F172A;
 box-shadow:0 8px 20px rgba(0,0,0,.08);
-transition:.3s;
-}
-
-.company-box:hover{
-transform:translateY(-8px);
 }
 
 </style>
 
 <section class="roadmap">
 
-<h2>Mechanical Engineering Roadmap</h2>
+<h2>AI Engineer Roadmap</h2>
 
 <div class="roadmap-grid">
 
 <div class="road-card">
-<i class="fa-solid fa-book"></i>
+<i class="fa-brands fa-python"></i>
 <h3>Step 1</h3>
-<p>Learn Engineering Mathematics, Physics and Engineering Drawing.</p>
+<p>Learn Python Programming.</p>
 </div>
 
 <div class="road-card">
-<i class="fa-solid fa-compass-drafting"></i>
+<i class="fa-solid fa-chart-line"></i>
 <h3>Step 2</h3>
-<p>Master AutoCAD, SolidWorks, CATIA and 3D Design.</p>
+<p>Learn Mathematics, Statistics and Machine Learning.</p>
 </div>
 
 <div class="road-card">
-<i class="fa-solid fa-gears"></i>
+<i class="fa-solid fa-brain"></i>
 <h3>Step 3</h3>
-<p>Study Manufacturing, Thermodynamics, Robotics and Industrial Automation.</p>
+<p>Master Deep Learning, NLP and Computer Vision.</p>
 </div>
 
 <div class="road-card">
-<i class="fa-solid fa-briefcase"></i>
+<i class="fa-solid fa-robot"></i>
 <h3>Step 4</h3>
-<p>Build projects, complete internships and apply for Mechanical Engineering jobs.</p>
+<p>Build AI Projects and apply for AI Engineer jobs.</p>
 </div>
 
 </div>
@@ -526,19 +493,19 @@ transform:translateY(-8px);
 
 <div class="salary-card">
 <h3>Fresher</h3>
-<h2>₹3 – ₹6 LPA</h2>
+<h2>₹6 – ₹10 LPA</h2>
 <p>0–2 Years Experience</p>
 </div>
 
 <div class="salary-card">
 <h3>Mid Level</h3>
-<h2>₹7 – ₹12 LPA</h2>
+<h2>₹12 – ₹22 LPA</h2>
 <p>2–5 Years Experience</p>
 </div>
 
 <div class="salary-card">
 <h3>Senior</h3>
-<h2>₹15+ LPA</h2>
+<h2>₹25+ LPA</h2>
 <p>5+ Years Experience</p>
 </div>
 
@@ -546,29 +513,29 @@ transform:translateY(-8px);
 
 <section class="company">
 
-<h2>Top Hiring Companies</h2>
+<h2>Top AI Companies</h2>
 
 <div class="company-grid">
 
-<div class="company-box">Tata Motors</div>
+<div class="company-box">OpenAI</div>
 
-<div class="company-box">Mahindra</div>
+<div class="company-box">Google AI</div>
 
-<div class="company-box">Maruti Suzuki</div>
+<div class="company-box">Microsoft AI</div>
 
-<div class="company-box">Ashok Leyland</div>
+<div class="company-box">NVIDIA</div>
 
-<div class="company-box">Larsen & Toubro</div>
+<div class="company-box">Amazon AWS</div>
 
-<div class="company-box">Bosch</div>
+<div class="company-box">IBM</div>
 
-<div class="company-box">Siemens</div>
+<div class="company-box">Infosys</div>
 
-<div class="company-box">BHEL</div>
+<div class="company-box">TCS</div>
 
 </div>
 
-</section><!-- ================= TOOLS | COURSES | FAQ | CTA | FOOTER ================= -->
+</section><!-- ================= AI TOOLS | COURSES | FAQ | CTA | FOOTER ================= -->
 
 <style>
 
@@ -610,7 +577,7 @@ margin-bottom:15px;
 }
 
 .tool-card h3{
-margin-bottom:12px;
+margin-bottom:10px;
 color:#0F172A;
 }
 
@@ -663,8 +630,8 @@ margin:80px auto;
 .faq h2{
 text-align:center;
 font-size:40px;
-color:#0F172A;
 margin-bottom:40px;
+color:#0F172A;
 }
 
 .faq-box{
@@ -689,10 +656,10 @@ line-height:26px;
 width:90%;
 margin:80px auto;
 background:#2563EB;
+color:#fff;
 padding:60px;
 text-align:center;
 border-radius:20px;
-color:#fff;
 }
 
 .cta h2{
@@ -715,87 +682,44 @@ font-weight:bold;
 border-radius:10px;
 }
 
-.cta a:hover{
-background:#E2E8F0;
-}
-
 footer{
-background:linear-gradient(135deg,#131C2F,#1E3A8A,#0F172A);
+background:#0F172A;
 color:#fff;
-padding:60px 8% 25px;
-margin-top:60px;
-}
-
-.footer-container{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:40px;
-}
-
-.footer-container h2,
-.footer-container h3{
-margin-bottom:20px;
-}
-
-.footer-container p{
-color:#d1d5db;
-line-height:28px;
-}
-
-.footer-container a{
-display:block;
-text-decoration:none;
-color:#d1d5db;
-margin-bottom:10px;
-transition:.3s;
-}
-
-.footer-container a:hover{
-color:#60a5fa;
-padding-left:8px;
-}
-
-footer hr{
-margin:30px 0 20px;
-border:1px solid rgba(255,255,255,.15);
-}
-
-.copy{
 text-align:center;
-color:#cbd5e1;
-font-size:15px;
+padding:30px;
+margin-top:80px;
 }
 
 </style>
 
 <section class="tools">
 
-<h2>Mechanical Engineering Tools</h2>
+<h2>AI Tools & Technologies</h2>
 
 <div class="tools-grid">
 
 <div class="tool-card">
-<i class="fa-solid fa-compass-drafting"></i>
-<h3>AutoCAD</h3>
-<p>Create professional 2D and 3D engineering drawings.</p>
+<i class="fa-brands fa-python"></i>
+<h3>Python</h3>
+<p>Primary programming language for AI.</p>
 </div>
 
 <div class="tool-card">
-<i class="fa-solid fa-cube"></i>
-<h3>SolidWorks</h3>
-<p>Design mechanical parts, assemblies and product models.</p>
+<i class="fa-solid fa-brain"></i>
+<h3>TensorFlow</h3>
+<p>Build and train deep learning models.</p>
 </div>
 
 <div class="tool-card">
-<i class="fa-solid fa-gears"></i>
-<h3>CATIA</h3>
-<p>Develop advanced product designs for automotive and aerospace industries.</p>
+<i class="fa-solid fa-microchip"></i>
+<h3>PyTorch</h3>
+<p>Popular AI and deep learning framework.</p>
 </div>
 
 <div class="tool-card">
-<i class="fa-solid fa-chart-line"></i>
-<h3>ANSYS</h3>
-<p>Perform simulation and engineering analysis for mechanical systems.</p>
+<i class="fa-solid fa-chart-column"></i>
+<h3>Pandas</h3>
+<p>Data analysis and preprocessing library.</p>
 </div>
 
 </div>
@@ -804,28 +728,28 @@ font-size:15px;
 
 <section class="course-section">
 
-<h2>Top Courses & Certifications</h2>
+<h2>Top AI Courses</h2>
 
 <div class="course-grid">
 
 <div class="course-card">
-<h3>AutoCAD Professional</h3>
-<p>Master engineering drafting and mechanical design.</p>
+<h3>Python Programming</h3>
+<p>Learn Python from beginner to advanced level.</p>
 </div>
 
 <div class="course-card">
-<h3>SolidWorks Certification</h3>
-<p>Learn professional 3D modeling and product development.</p>
+<h3>Machine Learning</h3>
+<p>Understand supervised and unsupervised learning.</p>
 </div>
 
 <div class="course-card">
-<h3>CATIA Design Course</h3>
-<p>Develop advanced mechanical and automotive components.</p>
+<h3>Deep Learning</h3>
+<p>Learn neural networks, CNNs and RNNs.</p>
 </div>
 
 <div class="course-card">
-<h3>ANSYS Simulation</h3>
-<p>Learn structural, thermal and fluid simulation techniques.</p>
+<h3>Generative AI</h3>
+<p>Build applications using modern AI models.</p>
 </div>
 
 </div>
@@ -837,81 +761,37 @@ font-size:15px;
 <h2>Frequently Asked Questions</h2>
 
 <div class="faq-box">
-<h3>Is Mechanical Engineering a good career?</h3>
-<p>Yes. Mechanical Engineers have opportunities in manufacturing, automotive, aerospace, robotics, energy and industrial sectors.</p>
+<h3>Do I need coding for AI?</h3>
+<p>Yes. Python is the most commonly used language for AI development.</p>
 </div>
 
 <div class="faq-box">
-<h3>Which software should a Mechanical Engineer learn?</h3>
-<p>AutoCAD, SolidWorks, CATIA and ANSYS are among the most widely used tools.</p>
+<h3>Can beginners learn AI?</h3>
+<p>Yes. Start with Python, mathematics and machine learning fundamentals.</p>
 </div>
 
 <div class="faq-box">
-<h3>Can Mechanical Engineers work in the IT industry?</h3>
-<p>Yes. With additional skills in CAD, automation, simulation, programming or data analysis, many Mechanical Engineers also work in technology companies.</p>
+<h3>Is AI a good career?</h3>
+<p>Yes. AI is one of the fastest-growing fields with excellent career opportunities.</p>
 </div>
 
 </section>
 
 <section class="cta">
 
-<h2>Start Your Mechanical Engineering Journey</h2>
+<h2>Build Your Future in Artificial Intelligence</h2>
 
-<p>Build industry-ready skills, complete practical projects, earn certifications and prepare for a successful engineering career.</p>
+<p>Start learning AI today and become an industry-ready AI Engineer.</p>
 
 <a href="#">Start Learning</a>
 
 </section>
+
 <footer>
 
-<div class="footer-container">
-
-<div>
-
-<h2>NEXT STEP</h2>
-
-<p>Your Journey to a Successful Career Starts Here.</p>
-
-</div>
-
-<div>
-
-<h3>Quick Links</h3>
-
-<a href="index.php">Home</a>
-
-<a href="career.php">Career</a>
-
-<a href="company.php">Company</a>
-
-<a href="resume-builder.php">Resume Builder</a>
-
-<a href="interview.php">Interview Practice</a>
-
-<a href="feedback.php">Feedback</a>
-
-</div>
-
-<div>
-
-<h3>Contact</h3>
-
-<p>Email : nextstep@gmail.com</p>
-
-<p>Kolhapur, Maharashtra</p>
-
-</div>
-
-</div>
-
-<hr>
-
-<p class="copy">
-Copyright © 2026 NEXT STEP | All Rights Reserved.
-</p>
+<p>© 2026 NextStep | Artificial Intelligence | All Rights Reserved.</p>
 
 </footer>
-
 
 </body>
 </html>

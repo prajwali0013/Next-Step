@@ -21,68 +21,68 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#f4f8ff;
-overflow-x:hidden;
+background:#eef4ff;
+padding-top:90px;
 }
 
-/* ================= NAVBAR ================= */
-
-nav{
-
+header{
 position:fixed;
 top:0;
 left:0;
 width:100%;
-padding:18px 8%;
+height:90px;
+background:#000;
 display:flex;
 justify-content:space-between;
 align-items:center;
-background:rgba(0,25,60,.95);
-backdrop-filter:blur(10px);
-z-index:999;
-
+padding:0 70px;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+z-index:9999;
 }
 
 .logo{
-
-font-size:32px;
-font-weight:bold;
-color:#fff;
-
+display:flex;
+align-items:center;
 }
 
-.logo span{
+.logo img{
+width:75px;
+height:75px;
+border-radius:50%;
+margin-right:15px;
+}
 
-color:#2ea8ff;
+.logo h2{
+color:#fff;
+font-size:32px;
+}
 
+.logo p{
+color:#d1d5db;
+font-size:14px;
 }
 
 nav ul{
-
 display:flex;
 list-style:none;
-
 }
 
 nav ul li{
-
-margin-left:30px;
-
+margin-left:35px;
 }
 
 nav ul li a{
-
-color:#fff;
 text-decoration:none;
+color:#fff;
 font-size:17px;
+font-weight:bold;
 transition:.3s;
-
+padding-bottom:5px;
 }
 
 nav ul li a:hover{
-
-color:#4db8ff;
-
+color:#3b82f6;
+border-bottom:2px solid #3b82f6;
 }
 
 .login-btn{
@@ -409,65 +409,53 @@ font-size:34px;
 }
 
 }/*================ FOOTER ================*/
-
 footer{
-
-margin-top:80px;
-background:#02152d;
+background:linear-gradient(135deg,#131C2F,#1E3A8A,#0F172A);
 color:#fff;
-
+padding:60px 8% 25px;
+margin-top:60px;
 }
 
 .footer-container{
-
-width:90%;
-max-width:1200px;
-margin:auto;
 display:grid;
-grid-template-columns:repeat(4,1fr);
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:40px;
-padding:60px 0;
-
 }
 
-.footer-box h2{
-
-font-size:34px;
+.footer-container h2,
+.footer-container h3{
 margin-bottom:20px;
-color:#37b6ff;
-
 }
 
-.footer-box h3{
-
-margin-bottom:20px;
-font-size:24px;
-
+.footer-container p{
+color:#d1d5db;
+line-height:28px;
 }
 
-.footer-box p{
-
-line-height:30px;
-color:#ddd;
-
-}
-
-.footer-box a{
-
+.footer-container a{
 display:block;
-color:#ddd;
 text-decoration:none;
-margin-bottom:12px;
+color:#d1d5db;
+margin-bottom:10px;
 transition:.3s;
-
 }
 
-.footer-box a:hover{
-
-color:#37b6ff;
+.footer-container a:hover{
+color:#60a5fa;
 padding-left:8px;
-
 }
+
+footer hr{
+margin:30px 0 20px;
+border:1px solid rgba(255,255,255,.15);
+}
+
+.copy{
+text-align:center;
+color:#cbd5e1;
+font-size:15px;
+}
+
 
 .social{
 
@@ -576,30 +564,44 @@ justify-content:center;
 
 <body>
 
-<!-- NAVBAR -->
+
+<header>
+
+<div class="logo">
+
+<img src="image/logo.jpeg" alt="Logo">
+
+<div>
+
+<h2>NEXT STEP</h2>
+
+<p>Your Journey to a Successful Career</p>
+
+</div>
+
+</div>
 
 <nav>
 
-<div class="logo">
-    <img src="image/logo.jpeg" alt="Logo" style="height:45px;vertical-align:middle;">
-    <span>Next</span>Step
-</div>
-
 <ul>
-<li><a href="index.php">Home</a></li>
-<li><a href="career.php">Career</a></li>
-<li><a href="company.php">Company</a></li>
-<li><a href="resume-builder.php">Resume Builder</a></li>
-<li><a href="interview.php">Interview Practice</a></li>
-<li><a href="feedback.php">Feedback</a></li>
-</ul>
 
-<a href="login.php" class="login-btn">
-    <i class="fa-solid fa-user"></i> Login
-</a>
+<li><a href="index.php">Home</a></li>
+
+<li><a href="career.php">Career</a></li>
+
+<li><a href="company.php">Company</a></li>
+
+<li><a href="resume-builder.php">Resume Builder</a></li>
+
+<li><a href="interview.php">Interview Practice</a></li>
+
+<li><a href="feedback.php">Feedback</a></li>
+
+</ul>
 
 </nav>
 
+</header>
 
 <!-- HERO -->
 
@@ -787,80 +789,51 @@ Explore Companies
 
 <footer>
 
-    <div class="footer-container">
+<div class="footer-container">
 
-        <div class="footer-box">
+<div>
 
-            <h2>NextStep</h2>
+<h2>NEXT STEP</h2>
 
-            <p>
-                AI Career Guidance & Placement Preparation Portal helping
-                students choose the best career path and achieve success.
-            </p>
+<p>Your Journey to a Successful Career Starts Here.</p>
 
-            <div class="social">
+</div>
 
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+<div>
 
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+<h3>Quick Links</h3>
 
-                <a href="#"><i class="fab fa-instagram"></i></a>
+<a href="index.php">Home</a>
 
-                <a href="#"><i class="fab fa-youtube"></i></a>
+<a href="career.php">Career</a>
 
-            </div>
+<a href="company.php">Company</a>
 
-        </div>
+<a href="resume-builder.php">Resume Builder</a>
 
-        <div class="footer-box">
+<a href="interview.php">Interview Practice</a>
 
-            <h3>Quick Links</h3>
+<a href="feedback.php">Feedback</a>
 
-            <a href="index.php">Home</a>
+</div>
 
-            <a href="career.php">Career</a>
+<div>
 
-            <a href="company.php">Companies</a>
+<h3>Contact</h3>
 
-            <a href="contact.php">Contact</a>
+<p>Email : nextstep@gmail.com</p>
 
-        </div>
+<p>Kolhapur, Maharashtra</p>
 
-        <div class="footer-box">
+</div>
 
-            <h3>Top Companies</h3>
+</div>
 
-            <a href="google.php">Google</a>
+<hr>
 
-            <a href="microsoft.php">Microsoft</a>
-
-            <a href="amazon.php">Amazon</a>
-
-            <a href="tcs.php">TCS</a>
-
-            <a href="infosys.php">Infosys</a>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Contact</h3>
-
-            <p><i class="fa-solid fa-envelope"></i> nextstep@gmail.com</p>
-
-            <p><i class="fa-solid fa-phone"></i> +91 7499794215</p>
-
-            <p><i class="fa-solid fa-location-dot"></i> India</p>
-
-        </div>
-
-    </div>
-
-    <div class="copyright">
-
-        © 2026 NextStep | All Rights Reserved
-
-    </div>
+<p class="copy">
+Copyright © 2026 NEXT STEP | All Rights Reserved.
+</p>
 
 </footer>
 
